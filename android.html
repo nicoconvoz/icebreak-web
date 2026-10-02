@@ -4,38 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
-  <title>ICEBREAK para Android</title>
-  <link rel="icon" type="image/png" href="favicon.png">
+  <meta name="description" content="Red social de proximidad, de persona a persona, sin servidores.">
+  <title>ICEBREAK</title>
+  <link rel="icon" type="image/png" href="app/favicon.png">
+  <link rel="apple-touch-icon" href="app/apple-touch-icon.png">
   <style>
     :root { --bg: #f6f6f4; --paper: #fff; --ink: #111112; --muted: #5d5f63; --line: #dcdcd8; --tile: #111112; --tile-ink: #fff; }
     @media (prefers-color-scheme: dark) { :root { --bg: #0d0d0e; --paper: #17181a; --ink: #f1f1ef; --muted: #a3a5a9; --line: #2c2d31; --tile: #f1f1ef; --tile-ink: #0d0d0e; color-scheme: dark; } }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 28px 16px 48px; }
-    main { max-width: 520px; margin: 0 auto; display: grid; gap: 18px; }
-    .ib { width: 56px; height: 56px; border-radius: 14px; background: var(--tile); color: var(--tile-ink); display: grid; place-items: center; font: italic 800 25px/1 system-ui, sans-serif; }
-    h1 { margin: 0; font-size: 28px; line-height: 1.1; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 32px 16px 48px; }
+    main { max-width: 520px; margin: 0 auto; display: grid; gap: 20px; }
+    .ib { width: 64px; height: 64px; border-radius: 16px; background: var(--tile); color: var(--tile-ink); display: grid; place-items: center; font: italic 800 28px/1 system-ui, sans-serif; }
+    h1 { margin: 0; font-size: 32px; line-height: 1.05; letter-spacing: -.01em; }
+    h2 { margin: 0 0 6px; font-size: 19px; }
     p { margin: 0; color: var(--muted); }
-    a.btn { display: block; text-align: center; text-decoration: none; background: var(--tile); color: var(--tile-ink); font-weight: 700; padding: 16px; border-radius: 12px; }
+    section { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 10px; }
+    section.first { border: 2px solid var(--ink); }
+    a.btn { display: block; text-align: center; text-decoration: none; background: var(--tile); color: var(--tile-ink); font-weight: 700; padding: 15px; border-radius: 12px; }
     a.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--ink); font-weight: 600; padding: 12px; }
-    ol { margin: 0; padding-left: 20px; display: grid; gap: 8px; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 14px 14px 34px; }
+    a.btn:focus-visible { outline: 3px solid #1f8a4c; outline-offset: 2px; }
+    ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; color: var(--muted); font-size: 15.5px; }
     b { color: var(--ink); }
-    a.back { color: var(--muted); text-align: center; }
+    footer { color: var(--muted); font-size: 13px; text-align: center; }
   </style>
 </head>
 <body>
   <main>
     <div class="ib" aria-hidden="true">IB</div>
-    <h1>ICEBREAK para Android</h1>
-    <p>La app de Android suma la radio entre teléfonos cercanos. Se instala fuera de Play Store.</p>
-    <a class="btn" href="icebreak-android.apk" download="icebreak-android.apk" type="application/vnd.android.package-archive">Descargar ICEBREAK (37 MB)</a>
-    <a class="btn ghost" href="icebreak-android-32bit.apk" download="icebreak-android-32bit.apk" type="application/vnd.android.package-archive">Teléfono viejo: versión de 32 bits</a>
-    <ol>
-      <li>Si Chrome avisa que <b>“este tipo de archivo puede dañar el dispositivo”</b>, tocá <b>Descargar de todos modos</b>.</li>
-      <li>Abrí el archivo desde la notificación de descarga o desde <b>Archivos → Descargas</b>.</li>
-      <li>Si Android lo pide, permití <b>Instalar apps desconocidas</b> para Chrome y volvé a tocar <b>Instalar</b>.</li>
-      <li>Si Play Protect pregunta, elegí <b>Instalar de todas formas</b>: la app no está en Play Store, por eso no la conoce.</li>
-    </ol>
-    <a class="back" href="./">Volver a ICEBREAK web</a>
+    <h1>ICEBREAK</h1>
+    <p>Red social de proximidad, de persona a persona, sin servidores.</p>
+
+    <section id="android">
+      <h2>Android</h2>
+      <a class="btn" href="icebreak-android.apk" download="icebreak-android.apk" type="application/vnd.android.package-archive">Descargar para Android (37 MB)</a>
+      <a class="btn ghost" href="icebreak-android-32bit.apk" download="icebreak-android-32bit.apk" type="application/vnd.android.package-archive">Teléfono viejo: versión de 32 bits</a>
+      <ol>
+        <li>Si Chrome avisa que <b>“este tipo de archivo puede dañar el dispositivo”</b>, tocá <b>Descargar de todos modos</b>.</li>
+        <li>Abrí el archivo desde la notificación o desde <b>Archivos → Descargas</b>.</li>
+        <li>Si Android lo pide, permití <b>Instalar apps desconocidas</b> y volvé a tocar <b>Instalar</b>.</li>
+        <li>Si Play Protect pregunta, elegí <b>Instalar de todas formas</b>: la app no está en Play Store.</li>
+      </ol>
+    </section>
+
+    <section id="web">
+      <h2>iPhone (Safari)</h2>
+      <a class="btn" href="app/">Abrir ICEBREAK web</a>
+      <ol>
+        <li>Abrila en <b>Safari</b>.</li>
+        <li>Ya adentro de la app: <b>Compartir → Agregar a pantalla de inicio</b>.</li>
+        <li>Desde ahí en adelante, abrí ICEBREAK con el ícono <b>IB</b>.</li>
+      </ol>
+    </section>
+
+    <footer>© Resources Open Doors S.A.S.</footer>
   </main>
+  <script>
+    // iPhone and iPad first see the web app; everyone else first sees the Android download.
+    (function () {
+      var ios = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      var first = document.getElementById(ios ? 'web' : 'android');
+      first.classList.add('first');
+      if (ios) first.parentNode.insertBefore(first, document.getElementById('android'));
+      // The web app used to live at this address: retire its old offline copy so this page is what loads.
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function (rs) {
+          rs.forEach(function (r) { if (!/\/app\/$/.test(r.scope)) r.unregister(); });
+        }).catch(function () {});
+      }
+    })();
+  </script>
 </body>
 </html>
