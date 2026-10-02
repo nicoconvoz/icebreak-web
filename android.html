@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <title>ICEBREAK para Android</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <style>
+    :root { --bg: #f6f6f4; --paper: #fff; --ink: #111112; --muted: #5d5f63; --line: #dcdcd8; --tile: #111112; --tile-ink: #fff; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0d0d0e; --paper: #17181a; --ink: #f1f1ef; --muted: #a3a5a9; --line: #2c2d31; --tile: #f1f1ef; --tile-ink: #0d0d0e; color-scheme: dark; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 28px 16px 48px; }
+    main { max-width: 520px; margin: 0 auto; display: grid; gap: 18px; }
+    .ib { width: 56px; height: 56px; border-radius: 14px; background: var(--tile); color: var(--tile-ink); display: grid; place-items: center; font: italic 800 25px/1 system-ui, sans-serif; }
+    h1 { margin: 0; font-size: 28px; line-height: 1.1; }
+    p { margin: 0; color: var(--muted); }
+    a.btn { display: block; text-align: center; text-decoration: none; background: var(--tile); color: var(--tile-ink); font-weight: 700; padding: 16px; border-radius: 12px; }
+    a.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--ink); font-weight: 600; padding: 12px; }
+    ol { margin: 0; padding-left: 20px; display: grid; gap: 8px; background: var(--paper); border: 1px solid var(--line); border-radius: 12px; padding: 14px 14px 14px 34px; }
+    b { color: var(--ink); }
+    a.back { color: var(--muted); text-align: center; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="ib" aria-hidden="true">IB</div>
+    <h1>ICEBREAK para Android</h1>
+    <p>La app de Android suma la radio entre teléfonos cercanos. Se instala fuera de Play Store.</p>
+    <a class="btn" href="icebreak-android.apk" download="icebreak-android.apk" type="application/vnd.android.package-archive">Descargar ICEBREAK (37 MB)</a>
+    <a class="btn ghost" href="icebreak-android-32bit.apk" download="icebreak-android-32bit.apk" type="application/vnd.android.package-archive">Teléfono viejo: versión de 32 bits</a>
+    <ol>
+      <li>Si Chrome avisa que <b>“este tipo de archivo puede dañar el dispositivo”</b>, tocá <b>Descargar de todos modos</b>.</li>
+      <li>Abrí el archivo desde la notificación de descarga o desde <b>Archivos → Descargas</b>.</li>
+      <li>Si Android lo pide, permití <b>Instalar apps desconocidas</b> para Chrome y volvé a tocar <b>Instalar</b>.</li>
+      <li>Si Play Protect pregunta, elegí <b>Instalar de todas formas</b>: la app no está en Play Store, por eso no la conoce.</li>
+    </ol>
+    <a class="back" href="./">Volver a ICEBREAK web</a>
+  </main>
+</body>
+</html>
