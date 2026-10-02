@@ -1,0 +1,1 @@
+RL1 by=a68978c1804239a2e4983a07c4783c2ed5150b1f5ff2ca17555005765b9e4e52 t=1790914822501 list=wss://relay.damus.io,wss://nos.lol,wss://relay.primal.net,wss://relay.snort.social sig=b2570a89cc0057003407beb9c5b4bf12dc4209857c17c40e21faf765c0102c35d85bde2a0c42f46963bd4b7b8395fbd11c068ce693f8c52266b5c15881dfe206
