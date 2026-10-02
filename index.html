@@ -3,59 +3,113 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#000000">
+  <meta name="theme-color" content="#8d8d89">
   <meta name="description" content="Red social de proximidad, de persona a persona, sin servidores.">
   <title>ICEBREAK</title>
   <link rel="icon" type="image/png" href="app/favicon.png">
   <link rel="apple-touch-icon" href="app/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Figtree:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400&display=swap">
   <style>
-    :root { --bg: #f6f6f4; --paper: #fff; --ink: #111112; --muted: #5d5f63; --line: #dcdcd8; --tile: #111112; --tile-ink: #fff; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #0d0d0e; --paper: #17181a; --ink: #f1f1ef; --muted: #a3a5a9; --line: #2c2d31; --tile: #f1f1ef; --tile-ink: #0d0d0e; color-scheme: dark; } }
+    /* The app's own look (skin Tinta): grey bar, black and white cards, dark label tabs. */
+    :root {
+      --app-bg: #e8e8e5; --surface: #fff; --surface-2: #f1f1ee; --ink: #121212; --muted: #6b6b67; --line: #d8d8d3;
+      --bar: #8d8d89; --bar-ink: #fff; --btn-on: #121212; --btn-on-ink: #fff; --btn-line: #cfcfca; --green: #2fbf4a;
+      --shadow: 0 1px 2px rgba(0,0,0,.08), 0 4px 10px -4px rgba(0,0,0,.18);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) { color-scheme: dark; --app-bg: #111; --surface: #1b1b1a; --surface-2: #232322; --ink: #efefec; --muted: #9a9a95; --line: #2e2e2c; --bar: #2a2a29; --btn-on: #efefec; --btn-on-ink: #111; --btn-line: #3a3a38; }
+    }
+    :root[data-theme="dark"] { color-scheme: dark; --app-bg: #111; --surface: #1b1b1a; --surface-2: #232322; --ink: #efefec; --muted: #9a9a95; --line: #2e2e2c; --bar: #2a2a29; --btn-on: #efefec; --btn-on-ink: #111; --btn-line: #3a3a38; }
     * { box-sizing: border-box; }
-    body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; padding: 32px 16px 48px; }
-    main { max-width: 520px; margin: 0 auto; display: grid; gap: 20px; }
-    .ib { width: 64px; height: 64px; border-radius: 16px; background: var(--tile); color: var(--tile-ink); display: grid; place-items: center; font: italic 800 28px/1 system-ui, sans-serif; }
-    h1 { margin: 0; font-size: 32px; line-height: 1.05; letter-spacing: -.01em; }
-    h2 { margin: 0 0 6px; font-size: 19px; }
-    p { margin: 0; color: var(--muted); }
-    section { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 10px; }
-    section.first { border: 2px solid var(--ink); }
-    a.btn { display: block; text-align: center; text-decoration: none; background: var(--tile); color: var(--tile-ink); font-weight: 700; padding: 15px; border-radius: 12px; }
-    a.ghost { background: transparent; color: var(--ink); border: 1.5px solid var(--ink); font-weight: 600; padding: 12px; }
-    a.btn:focus-visible { outline: 3px solid #1f8a4c; outline-offset: 2px; }
-    ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; color: var(--muted); font-size: 15.5px; }
-    b { color: var(--ink); }
-    footer { color: var(--muted); font-size: 13px; text-align: center; }
+    html, body { margin: 0; }
+    body { background: var(--app-bg); color: var(--ink); font: 16px/1.45 Figtree, system-ui, sans-serif; min-height: 100vh; }
+    .bar { background: var(--bar); color: var(--bar-ink); padding: 14px 16px; display: flex; align-items: center; gap: 12px; }
+    .bar b { font: 800 18px Figtree, sans-serif; letter-spacing: .04em; }
+    .bar small { margin-left: auto; font: 12px "JetBrains Mono", monospace; opacity: .85; }
+    main { max-width: 560px; margin: 0 auto; padding: 22px 16px 40px; }
+    .hero { text-align: center; padding: 18px 0 8px; }
+    .logo { width: 118px; height: 94px; margin: 0 auto; border-radius: 18px; background: #0e0e0e; color: #fff; display: grid; place-items: center; font: 700 62px/1 "Dancing Script", cursive; letter-spacing: -2px; padding-top: 4px; box-shadow: 0 10px 30px -10px rgba(0,0,0,.5), inset 0 0 0 2px #2a2a2a; }
+    .dots { display: flex; gap: 10px; justify-content: center; margin-top: 16px; }
+    .dots i { width: 11px; height: 11px; border-radius: 50%; background: var(--ink); animation: dot 1.2s infinite; }
+    .dots i:nth-child(2) { animation-delay: .15s } .dots i:nth-child(3) { animation-delay: .3s }
+    @keyframes dot { 40% { transform: translateY(-6px); opacity: .5 } }
+    @media (prefers-reduced-motion: reduce) { .dots i { animation: none } }
+    .hero p { color: var(--muted); margin: 18px auto 0; max-width: 380px; }
+    .rule { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 15px; font-weight: 500; margin: 22px 2px 10px; }
+    .rule::after { content: ""; flex: 1; height: 1px; background: currentColor; opacity: .45; }
+    .box { background: var(--surface); border-radius: 14px; box-shadow: var(--shadow); margin-bottom: 12px; overflow: hidden; }
+    .box.first { outline: 2px solid var(--ink); }
+    .tag { display: inline-block; background: var(--btn-on); color: var(--btn-on-ink); font-weight: 700; font-size: 13.5px; padding: 6px 12px; border-bottom-right-radius: 8px; }
+    .in { padding: 12px 14px 14px; display: grid; gap: 10px; }
+    a.btn { display: flex; align-items: center; justify-content: center; gap: 8px; text-decoration: none; background: var(--btn-on); color: var(--btn-on-ink); font-weight: 700; font-size: 15px; padding: 13px 16px; border-radius: 12px; box-shadow: var(--shadow); }
+    a.btn.ghost { background: var(--surface); color: var(--ink); border: 1.5px solid var(--btn-line); box-shadow: none; }
+    a.btn.green { background: var(--green); color: #111; border: 2px solid #111; }
+    a.btn:focus-visible { outline: 2px solid #8a3ffc; outline-offset: 2px; }
+    a.btn svg { width: 18px; height: 18px; }
+    ol { margin: 0; padding-left: 20px; display: grid; gap: 6px; color: var(--muted); font-size: 14.5px; }
+    ol b { color: var(--ink); }
+    .card { display: flex; align-items: center; min-height: 64px; border-radius: 14px; box-shadow: var(--shadow); margin-bottom: 9px; overflow: hidden; }
+    .card.dark { background: #121212; color: #fff; } .card.light { background: #fff; color: #121212; border: 1px solid #d8d8d3; }
+    .card .ic { padding: 0 12px; display: grid; place-items: center; }
+    .card .ic svg { width: 30px; height: 30px; }
+    .card .tx { flex: 1; padding: 10px 0; }
+    .card .tx b { display: block; font-size: 15.5px; }
+    .card .tx span { font-size: 13px; opacity: .72; }
+    .card .bar8 { width: 8px; align-self: stretch; margin: 9px 8px 9px 2px; border-radius: 6px; }
+    .od { display: block; width: 110px; height: 110px; margin: 26px auto 8px; border-radius: 14px; object-fit: cover; }
+    footer { text-align: center; color: var(--muted); font-size: 13px; }
   </style>
 </head>
 <body>
+  <div class="bar"><b>ICEBREAK</b><small>sin servidores</small></div>
   <main>
-    <div class="ib" aria-hidden="true">IB</div>
-    <h1>ICEBREAK</h1>
-    <p>Red social de proximidad, de persona a persona, sin servidores.</p>
+    <div class="hero">
+      <div class="logo" aria-hidden="true">IB</div>
+      <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+      <p>La red social de proximidad: la gente que tenés cerca, de teléfono a teléfono, sin servidores.</p>
+    </div>
 
-    <section id="android">
-      <h2>Android</h2>
-      <a class="btn" href="icebreak-android.apk" download="icebreak-android.apk" type="application/vnd.android.package-archive">Descargar para Android (37 MB)</a>
-      <a class="btn ghost" href="icebreak-android-32bit.apk" download="icebreak-android-32bit.apk" type="application/vnd.android.package-archive">Teléfono viejo: versión de 32 bits</a>
-      <ol>
-        <li>Si Chrome avisa que <b>“este tipo de archivo puede dañar el dispositivo”</b>, tocá <b>Descargar de todos modos</b>.</li>
-        <li>Abrí el archivo desde la notificación o desde <b>Archivos → Descargas</b>.</li>
-        <li>Si Android lo pide, permití <b>Instalar apps desconocidas</b> y volvé a tocar <b>Instalar</b>.</li>
-        <li>Si Play Protect pregunta, elegí <b>Instalar de todas formas</b>: la app no está en Play Store.</li>
-      </ol>
+    <div class="rule">Entrar</div>
+
+    <section class="box" id="android">
+      <span class="tag">Android</span>
+      <div class="in">
+        <a class="btn" href="icebreak-android.apk" download="icebreak-android.apk" type="application/vnd.android.package-archive">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h13l3 3v13H4z"/><path d="M7.5 4v5h8V4M7.5 20v-6h9v6"/></svg>
+          Descargar para Android (41 MB)</a>
+        <a class="btn ghost" href="icebreak-android-32bit.apk" download="icebreak-android-32bit.apk" type="application/vnd.android.package-archive">Teléfono viejo: versión de 32 bits</a>
+        <ol>
+          <li>Si Chrome avisa que <b>“este tipo de archivo puede dañar el dispositivo”</b>, tocá <b>Descargar de todos modos</b>.</li>
+          <li>Abrí el archivo desde la notificación o desde <b>Archivos → Descargas</b>.</li>
+          <li>Si Android lo pide, permití <b>Instalar apps desconocidas</b> y volvé a tocar <b>Instalar</b>.</li>
+          <li>Si Play Protect pregunta, elegí <b>Instalar de todas formas</b>: la app no está en Play Store.</li>
+        </ol>
+      </div>
     </section>
 
-    <section id="web">
-      <h2>iPhone (Safari)</h2>
-      <a class="btn" href="app/">Abrir ICEBREAK web</a>
-      <ol>
-        <li>Abrila en <b>Safari</b>.</li>
-        <li>Ya adentro de la app: <b>Compartir → Agregar a pantalla de inicio</b>.</li>
-        <li>Desde ahí en adelante, abrí ICEBREAK con el ícono <b>IB</b>.</li>
-      </ol>
+    <section class="box" id="web">
+      <span class="tag">iPhone (Safari)</span>
+      <div class="in">
+        <a class="btn" href="app/">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></svg>
+          Abrir ICEBREAK</a>
+        <ol>
+          <li>Abrila en <b>Safari</b>.</li>
+          <li>Ya adentro de la app: <b>Compartir → Agregar a pantalla de inicio</b>.</li>
+          <li>Desde ahí en adelante, abrí ICEBREAK con el ícono <b>IB</b>.</li>
+        </ol>
+      </div>
     </section>
 
+    <div class="rule">Qué vas a encontrar</div>
+    <div class="card dark"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4v16M20 4v16"/><rect x="7" y="6" width="10" height="3" rx="1"/><rect x="7" y="10.5" width="6" height="3" rx="1"/><rect x="7" y="15" width="9" height="3" rx="1"/></svg></div><div class="tx"><b>Estados</b><span>Lo que publica la gente a tu alrededor</span></div><i class="bar8" style="background:#2fbf4a"></i></div>
+    <div class="card light"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4.5h10.5a2 2 0 0 1 2 2V12a2 2 0 0 1-2 2H9l-4 3v-3H4a2 2 0 0 1-2-2V6.5a2 2 0 0 1 2-2z"/><path d="M19 8.5h.5a2 2 0 0 1 2 2V15a2 2 0 0 1-2 2H19v2.5L16 17h-3.5"/></svg></div><div class="tx"><b>Chat cifrado</b><span>Con llamadas, fotos, notas de voz y juegos</span></div><i class="bar8" style="background:#f2c230"></i></div>
+    <div class="card dark"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 10.5h17V19a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 19z"/><path d="M3.5 10.5V9a5 5 0 0 1 5-5h7a5 5 0 0 1 5 5v1.5"/><path d="M8.5 4.3v6.2M15.5 4.3v6.2"/><rect x="10" y="9" width="4" height="5" rx="1"/></svg></div><div class="tx"><b>Tesoros</b><span>Una botella te lleva al cofre más cercano</span></div><i class="bar8" style="background:#f08a24"></i></div>
+    <div class="card light"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20.5S3.5 15.6 3.5 9.4A4.6 4.6 0 0 1 12 7a4.6 4.6 0 0 1 8.5 2.4c0 6.2-8.5 11.1-8.5 11.1z"/></svg></div><div class="tx"><b>Citas y salas</b><span>Corazón correspondido abre el chat; salas de tu ciudad</span></div><i class="bar8" style="background:#e5383b"></i></div>
+
+    <img class="od" src="app/assets/assets/brand/open_doors.jpg" alt="Open Doors">
     <footer>© Resources Open Doors S.A.S.</footer>
   </main>
   <script>
