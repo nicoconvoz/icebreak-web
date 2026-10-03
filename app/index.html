@@ -36,6 +36,11 @@
 
   <title>ICEBREAK</title>
   <link rel="manifest" href="manifest.json">
+  <script>
+    // The browser's own install prompt (Android, desktop): kept for the "Instalar IceBreak" button.
+    window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); window.__ibInstall = e; });
+    window.addEventListener('appinstalled', function () { window.__ibInstall = null; window.__ibInstalled = true; });
+  </script>
 </head>
 <body>
   <!--

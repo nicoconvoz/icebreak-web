@@ -599,6 +599,7 @@ Use of this source code is governed by a BSD-style license that can be
 found in the LICENSE file.
 --------------------------------------------------------------------------------
 analyzer
+intl
 
 Copyright 2013, the Dart project authors.
 
@@ -2058,6 +2059,11 @@ flutter_plugin_android_lifecycle
 image_picker_for_web
 image_picker_macos
 image_picker_platform_interface
+local_auth
+local_auth_android
+local_auth_darwin
+local_auth_platform_interface
+local_auth_windows
 path_provider
 path_provider_android
 path_provider_foundation
