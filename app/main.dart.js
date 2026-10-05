@@ -125120,7 +125120,7 @@ o=m==null?null:m.m()
 s=3
 return A.n(t.B.b(o)?o:A.cL(o,t.H),$async$vU)
 case 3:o=J.B(p.d,a)
-n=new A.KZ(new A.a50(B.apx,24,3e5,32e3,!0),new A.Dv(!1,!1,!1,!1,!1,!1,null,null,null,B.Zb,B.x8,B.xs,!1,!1,B.l9,null,null,o,B.aCd),$.aB())
+n=new A.KZ(new A.a50(B.apx,24,25e4,32e3,!0),new A.Dv(!1,!1,!1,!1,!1,!1,null,null,null,B.Zb,B.x8,B.xs,!1,!1,B.l9,null,null,o,B.aCd),$.aB())
 s=4
 return A.n(n.yR(o),$async$vU)
 case 4:if(p.c==null){q=n.m()
@@ -125243,7 +125243,7 @@ i=A.a([A.bg(A.ck(i,m,m),1)],s)
 if(n.as!=null||n.Q!=null){k=A.a([A.bg(A.bzC(B.aze,n.gavi(),A.bSt(m,m,m,m,m,m,m,m,m,B.n,m,m,B.lf,m,m,B.O4,m,m,m,m)),1)],s)
 if(n.as!=null)B.c.F(k,A.a([B.aR,A.bg(A.h3(B.ayE,new A.bcT(n,a),A.bQ5(B.aK,m,B.lf,m)),1)],s))
 i.push(new A.ac(B.wU,A.aD(k,B.j,B.h,B.i,0),m))}else{r=n.r
-k=r?"Grabando \xb7 quedan "+(60-k)+"s":"Hasta 1 minuto \xb7 calidad liviana"
+k=r?"Grabando \xb7 quedan "+(60-k)+"s":"Hasta 1 minuto \xb7 240p liviano"
 k=A.A(k,m,m,m,m,A.U(m,m,r?B.bb:B.ap,m,m,m,m,m,m,m,m,m,m,m,B.H,m,m,!0,m,m,m,m,m,m,m,m),m,m)
 q=A.cR(B.n,4)
 r=n.r
@@ -168718,7 +168718,7 @@ B.apu=new A.Q8(2,"paint")
 B.cF=new A.Q8(3,"layout")
 B.apv=new A.a7G(0,"raster")
 B.apw=new A.a7G(1,"picture")
-B.apx=new A.aOl(1,"medium")
+B.apx=new A.aOl(0,"low")
 B.adU=s(["pause","config","release","admins"],t.s)
 B.apB=new A.GU("OWNER",B.adU)
 B.apC=new A.aOG(null)
