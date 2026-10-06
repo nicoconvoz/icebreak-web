@@ -34,7 +34,7 @@
         {
           "svg": "video",
           "label": "Reels",
-          "does": "Videos cortos. Tocás la imagen y se abre a pantalla completa."
+          "does": "Videos cortos. Tocás la imagen y se abre a pantalla completa, con play, pausa y volumen."
         },
         {
           "svg": "compose",
@@ -59,9 +59,6 @@
       ],
       "shots": [
         "estados.jpg"
-      ],
-      "tips": [
-        "Si un reel llega pero no abre en la computadora, tocá «Abrir en el navegador»: lo reproduce el navegador mismo."
       ]
     },
     {
