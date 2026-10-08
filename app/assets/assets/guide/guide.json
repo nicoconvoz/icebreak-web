@@ -175,6 +175,11 @@
           "does": "Te señala hacia dónde está; brilla en verde cuando estás muy cerca."
         },
         {
+          "svg": "dice",
+          "label": "Ruleta de tesoros",
+          "does": "Cada 10 ICE que gastás en el ICEMARKET te dan 3 giros (con tu cuenta de más de 3 días). Cada giro siembra un cofre en un lugar al azar de tu localidad: días ampliados, un casillero del Baúl, una guarida o ICE. Lo buscás con la brújula, igual que los demás."
+        },
+        {
           "svg": "palette",
           "label": "Taller",
           "does": "Creá skins, marcos y premios con el editor de pixel art."
@@ -182,17 +187,17 @@
         {
           "svg": "trophy",
           "label": "Eventos de cofres",
-          "does": "Escondé un cofre para que otros lo encuentren."
+          "does": "Escondé un cofre con un premio de tu Baúl para que otros lo encuentren."
         },
         {
           "svg": "ice",
           "label": "ICEMARKET",
-          "does": "Comprá y vendé objetos con ICE, la moneda de la app."
+          "does": "Comprá y vendé objetos con ICE, la moneda de la app. De cada venta el creador cobra el 70 % y el 30 % se quema. La red te regala 3 ICE por día."
         },
         {
           "svg": "chest",
           "label": "Baúl",
-          "does": "Lo que encontraste o ganaste: skins, premios y más."
+          "does": "Lo que encontraste o ganaste: skins, marcos, fondos y premios. Lo que te ponés lo ven todos; un objeto temporal se puede pausar, y descartar pide confirmación."
         }
       ],
       "shots": [
@@ -253,7 +258,8 @@
       "tips": [
         "Dentro de una sala: chat, usuarios, privados y el botón de audio para hablar.",
         "En un privado podés agregar a la persona como amigo, o cerrarlo con la X si no te gusta.",
-        "Para salir, la app te pregunta antes: así no perdés tu lugar sin querer."
+        "Para salir, la app te pregunta antes: así no perdés tu lugar sin querer.",
+        "En el audio de la sala, arriba se ve quién habla: vos en verde, una mujer en rosa y un hombre en celeste; con 🔑 si es un amigo con palabra clave."
       ],
       "shots": [
         "salas.jpg",
@@ -308,7 +314,7 @@
         {
           "svg": "volume",
           "label": "Sonidos",
-          "does": "Tonos de mensajes y llamadas; elegí si las llamadas suenan o vibran."
+          "does": "Tonos de mensajes y llamadas, si las llamadas suenan o vibran, y los sonidos de los juegos."
         },
         {
           "svg": "palette",
