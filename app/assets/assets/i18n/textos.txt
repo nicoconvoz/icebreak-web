@@ -1634,3 +1634,11 @@ Producir alimentos frescos en casa, en la escuela o en el barrio: semillas, huer
 Eficiencia energética | Energy efficiency
 Secretaría de Energía de la Nación | National Energy Secretariat
 Consejos para gastar menos luz y gas en casa sin perder confort. | Tips to use less electricity and gas at home without losing comfort.
+
+# National guides of each country
+Emergencias y desastres | Emergencies and disasters
+El organismo oficial del país: cómo prepararse ante desastres, las alertas y qué hacer en una emergencia. | The country's official agency: how to prepare for disasters, the alerts and what to do in an emergency.
+Salud pública | Public health
+El sitio oficial de salud del país: prevención, vacunas, servicios y alertas sanitarias. | The country's official health site: prevention, vaccines, services and health alerts.
+Línea de ayuda en crisis | Crisis helpline
+Atención gratuita y confidencial para quien está pasando un momento difícil o piensa en el suicidio. | Free, confidential support for anyone going through a hard time or thinking about suicide.
