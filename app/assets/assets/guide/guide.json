@@ -154,7 +154,7 @@
         "Debajo del círculo de colores de cada chat: agregar como amigo y la palabra clave entre amigos (🔑 ******).",
         "Tocando el círculo de colores aparecen llamada, videollamada, juegos, enviar ICE y bloquear.",
         "Llamadas y videollamadas solo entre amigos. ✓ quiere decir que el mensaje llegó.",
-        "Notas de voz: tocá el micrófono, podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
+        "En la caja de escribir, el botón multicolor abre smileys, archivo, foto y nota de voz. Notas de voz: podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
       ],
       "shots": [
         "chat.jpg"
@@ -237,7 +237,7 @@
     {
       "svg": "salas",
       "title": "Salas",
-      "what": "Salas de chat de tu ciudad, tu provincia y tu país, hasta 50 personas, con voz para hablar en vivo. En una sala de provincia o de país te encontrás con gente de lejos.",
+      "what": "Salas de chat de tu ciudad, tu provincia y tu país, hasta 50 personas, con voz para hablar en vivo. En una sala de provincia o de país te encontrás con gente de lejos, y en las salas Español y English, con gente de todo el mundo.",
       "buttons": [
         {
           "svg": "salas",
@@ -282,6 +282,11 @@
           "does": "Mandá una idea (+2 días) y una queja (+1 día) por día."
         },
         {
+          "svg": "list",
+          "label": "Guías útiles",
+          "does": "Debajo de la idea y la queja: guías públicas oficiales de cada país (alimentación, RCP, vacunas, sismos, derechos, internet segura y más), ordenadas por continente y país: tocás una rama y se abre solo esa. Se leen o descargan desde su sitio oficial, o se mandan a un contacto por el chat privado. Si una guía deja de estar en línea, la app avisa que no está disponible en este momento."
+        },
+        {
           "svg": "ticket",
           "label": "Mis tickets",
           "does": "Lo que mandaste."
@@ -320,6 +325,11 @@
           "svg": "volume",
           "label": "Sonidos",
           "does": "Tonos de mensajes y llamadas, si las llamadas suenan o vibran, y los sonidos de los juegos."
+        },
+        {
+          "svg": "chat",
+          "label": "Idioma",
+          "does": "La app en español o en inglés. Se elige al crear la cuenta y se cambia acá cuando quieras."
         },
         {
           "svg": "palette",
