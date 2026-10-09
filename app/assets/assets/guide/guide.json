@@ -153,7 +153,8 @@
       "tips": [
         "Debajo del círculo de colores de cada chat: agregar como amigo y la palabra clave entre amigos (🔑 ******).",
         "Tocando el círculo de colores aparecen llamada, videollamada, juegos, enviar ICE y bloquear.",
-        "Llamadas y videollamadas solo entre amigos. ✓ quiere decir que el mensaje llegó."
+        "Llamadas y videollamadas solo entre amigos. ✓ quiere decir que el mensaje llegó.",
+        "Notas de voz: tocá el micrófono, podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
       ],
       "shots": [
         "chat.jpg"
@@ -172,7 +173,7 @@
         {
           "svg": "compass",
           "label": "Brújula",
-          "does": "Te señala hacia dónde está; brilla en verde cuando estás muy cerca."
+          "does": "Te señala el tesoro más cercano a vos entre todos los de tu zona, y abajo dice cuántos cofres hay y a qué distancia aproximada está el más cercano. Los cofres pasan de teléfono en teléfono, así los ven todos aunque quien los escondió no esté conectado."
         },
         {
           "svg": "dice",
@@ -202,6 +203,9 @@
       ],
       "shots": [
         "tesoros.jpg"
+      ],
+      "tips": [
+        "A la vista quedan el detective y la brújula; la ruleta, el Taller, los eventos, el ICEMARKET y el Baúl se abren tocando el botón redondo multicolor."
       ]
     },
     {
