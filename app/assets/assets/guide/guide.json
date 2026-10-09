@@ -19,7 +19,7 @@
       "text": "Escribile a alguien. Si se hacen amigos, se pueden llamar y hacer videollamadas."
     }
   ],
-  "bar": "Arriba están las secciones. La flecha de la derecha muestra el resto: Citas, Salas, Ideas, Configuración y Apagar. Debajo de cada sección hay una fila de botones cuadrados con sus herramientas.",
+  "bar": "Arriba están las secciones. La flecha de la derecha muestra el resto: Citas, Salas, Ideas, Configuración y Apagar. Debajo de cada sección quedan a la vista los botones más usados; los demás se abren con el botón redondo multicolor de la derecha (si tiene un puntito rojo, adentro hay algo nuevo).",
   "sections": [
     {
       "svg": "estados",
@@ -183,7 +183,7 @@
         {
           "svg": "palette",
           "label": "Taller",
-          "does": "Creá skins, marcos y premios con el editor de pixel art."
+          "does": "Creá skins, marcos y premios con el editor de pixel art; abajo ves en vivo cómo va a quedar puesto."
         },
         {
           "svg": "trophy",
@@ -193,7 +193,7 @@
         {
           "svg": "ice",
           "label": "ICEMARKET",
-          "does": "Comprá y vendé objetos con ICE, la moneda de la app. De cada venta el creador cobra el 70 % y el 30 % se quema. La red te regala 3 ICE por día."
+          "does": "Comprá y vendé objetos con ICE, la moneda de la app. Con \"Probar\" ves el diseño puesto en tu propia tarjeta antes de comprarlo. De cada venta el creador cobra el 70 % y el 30 % se quema. La red te regala 3 ICE por día."
         },
         {
           "svg": "chest",
