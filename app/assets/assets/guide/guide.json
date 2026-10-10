@@ -159,7 +159,7 @@
         "Debajo del círculo de colores de cada chat: agregar como amigo y la palabra clave entre amigos (🔑 ******).",
         "Tocando el círculo de colores aparecen llamada, videollamada, juegos, enviar ICE y bloquear.",
         "Llamadas y videollamadas solo entre amigos. ✓ quiere decir que el mensaje llegó.",
-        "En la caja de escribir, el botón multicolor abre smileys, archivo, foto y nota de voz. Notas de voz: podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
+        "En la caja de escribir, el botón multicolor abre smileys, archivo, foto y nota de voz. Notas de voz: podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Al escuchar una nota, la barra lleva a cualquier parte (adelantar o atrasar) y el botón x1 la pasa a x1.5 o x2. Los videos (MP4 y otros) que mandes como archivo se ven dentro del chat. Las llamadas y videollamadas quedan anotadas en la conversación: hechas, recibidas con su duración, sin respuesta o perdidas (en rojo). Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
       ],
       "shots": [
         "chat.jpg"
