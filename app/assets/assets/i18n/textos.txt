@@ -1743,3 +1743,6 @@ Mandar mi ubicación a {n} | Send my location to {n}
 Solo {n} la va a ver, cifrada de teléfono a teléfono. | Only {n} will see it, encrypted phone to phone.
 Mandar ubicación | Send location
 No se pudo saber dónde estás. Probá de nuevo en unos segundos. | Could not tell where you are. Try again in a few seconds.
+
+# Treasure map
+Volver a mí | Back to me
