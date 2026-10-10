@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>IceBreak · reproductor</title>
+  <style>html,body{margin:0;height:100%;background:#000;color:#fff;font-family:sans-serif}iframe{border:0;width:100%;height:100%}p{padding:16px}</style>
+</head>
+<body>
+<script>
+  // The YouTube player that the Android app shows inside IceBreak. YouTube asks where an embedded player lives, so it
+  // runs from IceBreak's own site. It only plays a YouTube video (?e=<id>?…) or a channel on air (?e=live_stream?channel=…).
+  (function () {
+    var e = new URLSearchParams(location.search).get('e') || '';
+    var ok = /^(?!live_stream)[\w-]{11}\?[\w=&%.-]*$/.test(e) || /^live_stream\?channel=UC[\w-]{22}(&[\w=&%.-]*)?$/.test(e);
+    if (!ok) { document.body.innerHTML = '<p>Video no válido.</p>'; return; }
+    var f = document.createElement('iframe');
+    f.src = 'https://www.youtube-nocookie.com/embed/' + e;
+    f.allow = 'autoplay; encrypted-media; picture-in-picture; fullscreen';
+    f.allowFullscreen = true;
+    f.referrerPolicy = 'strict-origin-when-cross-origin';
+    document.body.appendChild(f);
+  })();
+</script>
+</body>
+</html>
