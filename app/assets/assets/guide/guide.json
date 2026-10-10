@@ -159,7 +159,7 @@
         "Debajo del círculo de colores de cada chat: agregar como amigo y la palabra clave entre amigos (🔑 ******).",
         "Tocando el círculo de colores aparecen llamada, videollamada, juegos, enviar ICE y bloquear.",
         "Llamadas y videollamadas solo entre amigos. ✓ quiere decir que el mensaje llegó.",
-        "En la caja de escribir, el botón multicolor abre smileys, archivo, foto y nota de voz. Notas de voz: podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Al escuchar una nota, la barra lleva a cualquier parte (adelantar o atrasar) y el botón x1 la pasa a x1.5 o x2. Los videos (MP4 y otros) que mandes como archivo se ven dentro del chat. Entre amigos, los enlaces se ven con su foto, título y detalle, y se abren con un toque; los de YouTube se ven dentro de IceBreak. El botón YouTube (en el anillo multicolor) busca lo que escribiste en la caja y manda al chat el primer video que encuentra. Las llamadas y videollamadas quedan anotadas en la conversación: hechas, recibidas con su duración, sin respuesta o perdidas (en rojo). Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
+        "En la caja de escribir, el botón multicolor abre smileys, archivo, foto y nota de voz. Notas de voz: podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Al escuchar una nota, la barra lleva a cualquier parte (adelantar o atrasar) y el botón x1 la pasa a x1.5 o x2. Los videos (MP4 y otros) que mandes como archivo se ven dentro del chat. Entre amigos, los enlaces se ven con su foto, título y detalle, y se abren con un toque; los de YouTube se ven dentro de IceBreak. El botón Ubicación (en el anillo multicolor) muestra tu lugar en un mapa chico y, si confirmás, se lo manda solo a esa persona, cifrado; se abre en el mapa con un toque. El botón YouTube (en el anillo multicolor) busca lo que escribiste en la caja y manda al chat el primer video que encuentra. Las llamadas y videollamadas quedan anotadas en la conversación: hechas, recibidas con su duración, sin respuesta o perdidas (en rojo). Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
       ],
       "shots": [
         "chat.jpg"
@@ -168,7 +168,7 @@
     {
       "svg": "detective",
       "title": "Tesoros",
-      "what": "Cofres escondidos en tu zona: los encontrás con la brújula y los abrís con una llave.",
+      "what": "Cofres escondidos en tu zona: los encontrás con el mapa y la brújula, y los abrís con una llave.",
       "buttons": [
         {
           "svg": "detective",
@@ -178,7 +178,7 @@
         {
           "svg": "compass",
           "label": "Brújula",
-          "does": "Te señala el tesoro más cercano a vos entre todos los de tu zona, y abajo dice cuántos cofres hay y a qué distancia aproximada está el más cercano. Los cofres pasan de teléfono en teléfono, así los ven todos aunque quien los escondió no esté conectado."
+          "does": "Te señala el tesoro más cercano a vos entre todos los de tu zona, y abajo dice cuántos cofres hay y a qué distancia aproximada está el más cercano. Los cofres pasan de teléfono en teléfono, así los ven todos aunque quien los escondió no esté conectado. Arriba, el mapa sigue tus pasos, marca por dónde caminaste y muestra con ondas la zona del cofre más cercano; la botella queda chiquita en la esquina."
         },
         {
           "svg": "dice",
@@ -227,7 +227,7 @@
         {
           "svg": "play",
           "label": "Videos",
-          "does": "Videos de canales oficiales de noticias, con título y descripción, para ver desde IceBreak."
+          "does": "Videos de canales oficiales de noticias, con título y descripción. Se abren maximizados: el teléfono se pone de costado y el video ocupa toda la pantalla (con datos móviles, un poco más chico para gastar menos)."
         },
         {
           "svg": "video",

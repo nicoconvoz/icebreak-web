@@ -1221,7 +1221,7 @@ Cerca | Close
 el más cercano | the nearest
 Activar brújula | Turn on compass
 Sin permiso para la brújula: el norte queda arriba. | No compass permission: north stays at the top.
-El cuello de la botella apunta al tesoro más cercano. Su color cambia con la distancia: negra a más de 8 km, después roja, naranja, amarilla, verde oscuro a 1 km y verde claro llegando a los 200 m; desde ahí brilla de todos los colores. A 10 m aparece el cofre. Podés abrir todos los que encuentres: solo hace falta una llave por cofre. | The bottle's neck points to the nearest treasure. Its color changes with distance: black beyond 8 km, then red, orange, yellow, dark green at 1 km and light green near 200 m; from there it shines in every color. At 10 m the chest appears. You can open every one you find: you only need one key per chest.
+El cuello de la botella apunta al tesoro más cercano. Su color cambia con la distancia: negra a más de 8 km, después roja, naranja, amarilla, verde oscuro a 1 km y verde claro llegando a los 200 m; desde ahí brilla de todos los colores. A 10 m aparece el cofre. Podés abrir todos los que encuentres: solo hace falta una llave por cofre. El mapa sigue tus pasos, marca por dónde caminaste y muestra con ondas la zona donde está escondido el cofre. | The bottle's neck points to the nearest treasure. Its color changes with distance: black beyond 8 km, then red, orange, yellow, dark green at 1 km and light green near 200 m; from there it shines in every color. At 10 m the chest appears. You can open every one you find: you only need one key per chest. The map follows your steps, marks where you walked and shows with waves the area where the chest is hidden.
  · permanente | · permanent
 +{slots} casilleros extra en tu Baúl | +{slots} extra slots in your Vault
 Seguir buscando | Keep searching
@@ -1733,3 +1733,13 @@ Video de YouTube | YouTube video
 Escribí qué video buscar y tocá YouTube. | Type what video to look for and tap YouTube.
 En la web la búsqueda pasa por un teléfono Android enlazado, y ahora no hay ninguno. | On the web the search goes through a linked Android phone, and there is none right now.
 No se encontró un video con esa búsqueda. | No video was found for that search.
+
+# Location in the private chat
+📍 Ubicación | 📍 Location
+Ubicación | Location
+Tocá para abrir el mapa | Tap to open the map
+Precisión ± {m} m · tocá para abrir el mapa | Accuracy ± {m} m · tap to open the map
+Mandar mi ubicación a {n} | Send my location to {n}
+Solo {n} la va a ver, cifrada de teléfono a teléfono. | Only {n} will see it, encrypted phone to phone.
+Mandar ubicación | Send location
+No se pudo saber dónde estás. Probá de nuevo en unos segundos. | Could not tell where you are. Try again in a few seconds.
