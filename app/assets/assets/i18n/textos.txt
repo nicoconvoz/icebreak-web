@@ -1705,3 +1705,4 @@ Canales oficiales transmitiendo ahora | Official channels on air now
 Ningún canal oficial está transmitiendo ahora. Probá en un rato. | No official channel is on air right now. Try again in a while.
 Los canales oficiales que están transmitiendo en este momento, con una imagen de vista previa; la transmisión empieza recién cuando tocás "Ver en vivo". | The official channels on air right now, with a preview image; the broadcast starts only when you tap "Watch live".
 Cada noticia, video o canal en vivo se puede compartir como estado o mandar a un contacto por su chat privado. | Every story, video or live channel can be shared as a status or sent to a contact through their private chat.
+En la web los videos y los canales en vivo llegan desde un teléfono Android enlazado, y ahora no hay ninguno. Las noticias sí se pueden leer. | On the web, videos and live channels come through a linked Android phone, and there is none right now. The news can still be read.
