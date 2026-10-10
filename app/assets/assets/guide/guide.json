@@ -173,12 +173,12 @@
         {
           "svg": "compass",
           "label": "Brújula",
-          "does": "Es lo primero que se abre en Tesoros. Te señala el tesoro más cercano a vos entre todos los de tu zona, y abajo dice cuántos cofres hay y a qué distancia aproximada está el más cercano. Los cofres pasan de teléfono en teléfono, así los ven todos aunque quien los escondió no esté conectado. Arriba, el mapa sigue tus pasos, marca por dónde caminaste y muestra con ondas la zona del cofre más cercano; la botella queda chiquita en la esquina. El mapa se mueve con el dedo y se acerca o aleja con dos dedos o con los botones + y −; el botón “Volver a mí” lo centra otra vez. Debajo están tus llaves y el botón para comprar una. Al lado, el ícono de ICEMARKET."
+          "does": "Es lo primero que se abre en Tesoros. Te señala el tesoro más cercano a vos entre todos los de tu zona, y abajo dice cuántos cofres hay y a qué distancia aproximada está el más cercano. Los cofres pasan de teléfono en teléfono, así los ven todos aunque quien los escondió no esté conectado. Arriba, el mapa sigue tus pasos, marca por dónde caminaste y muestra con ondas la zona del cofre más cercano; la botella queda chiquita en la esquina. El mapa se mueve con el dedo y se acerca o aleja con dos dedos o con los botones + y −; el botón “Volver a mí” lo centra otra vez. Debajo están tus llaves y el botón para comprar una. Al lado, el ícono de ICEMARKET. Las ondas del mapa cambian de color según el cofre: doradas los premios con QR, verdes los escondidos por la gente y de colores los de la ruleta según su premio. Los cofres que escondés vos no aparecen en tu mapa: son para los demás. Al llegar, si no tenés llave el cofre queda cerrado en tu Baúl; los de QR se abren con llave permanente. Cada semana recibís 4 llaves temporales y 1 permanente, y podés comprar más a 1 ICE (3 de cada 4 salen temporales y 1 permanente)."
         },
         {
           "svg": "dice",
           "label": "Ruleta de tesoros",
-          "does": "Cada 10 ICE que gastás en el ICEMARKET te dan 3 giros (con tu cuenta de más de 3 días). Cada giro siembra un cofre en un lugar al azar de tu localidad: días ampliados, un casillero del Baúl, una guarida o ICE. Lo buscás con la brújula, igual que los demás."
+          "does": "Cada 10 ICE que gastás en el ICEMARKET te dan 3 giros (con tu cuenta de más de 3 días). Cada giro siembra un cofre a entre 200 y 700 m de donde estás, que podés buscar vos y todos: días ampliados, un casillero del Baúl, una guarida o ICE. Lo buscás con la brújula, igual que los demás."
         },
         {
           "svg": "palette",
@@ -198,7 +198,7 @@
         {
           "svg": "chest",
           "label": "Baúl",
-          "does": "Lo que encontraste o ganaste: skins, marcos, fondos y premios. Lo que te ponés lo ven todos; un objeto temporal se puede pausar, y descartar pide confirmación."
+          "does": "Lo que encontraste o ganaste: skins, marcos, fondos y premios. Lo que te ponés lo ven todos; un objeto temporal se puede pausar, y descartar pide confirmación. Los cofres cerrados se ven en color ámbar con un candado: tocalos para abrirlos cuando tengas llave."
         }
       ],
       "shots": [

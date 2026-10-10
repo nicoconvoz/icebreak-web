@@ -1746,3 +1746,19 @@ No se pudo saber dónde estás. Probá de nuevo en unos segundos. | Could not te
 
 # Treasure map
 Volver a mí | Back to me
+
+# Keys and closed chests
+¡Te tocó una llave permanente! | You got a permanent key!
+Te tocó una llave temporal para esta semana. | You got a temporary key for this week.
+Guardar cerrado en el Baúl | Keep it closed in the Vault
+Abrir con llave permanente ({n}) | Open with a permanent key ({n})
+Este cofre se abre con una llave permanente: quedó cerrado en tu Baúl. | This chest opens with a permanent key: it stayed closed in your Vault.
+Sin llave: el cofre quedó cerrado en tu Baúl. Abrilo cuando tengas una. | No key: the chest stayed closed in your Vault. Open it when you have one.
+Sin llaves: se guarda cerrado en tu Baúl. Las llaves se renuevan cada semana o se compran con ICE. | No keys: it is kept closed in your Vault. Keys renew every week or can be bought with ICE.
+¡Abriste el cofre! {p} quedó en tu Baúl. | You opened the chest! {p} is in your Vault.
+Este cofre se abre con una llave permanente. | This chest opens with a permanent key.
+Sin llaves por ahora: se renuevan cada semana o se compran con ICE. | No keys for now: they renew every week or can be bought with ICE.
+No se pudo abrir. | It could not be opened.
+llave permanente | permanent key
+tocá para abrir | tap to open
+Cofre cerrado · {c} | Closed chest · {c}
