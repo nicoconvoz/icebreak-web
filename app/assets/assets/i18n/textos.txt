@@ -1726,3 +1726,10 @@ Videollamada saliente sin respuesta | Outgoing video call, no answer
 🎬 Video | 🎬 Video
 Video · llegando… | Video · arriving…
 Video · {s} | Video · {s}
+
+# Links between friends and the YouTube button
+Ver el video | Watch the video
+Video de YouTube | YouTube video
+Escribí qué video buscar y tocá YouTube. | Type what video to look for and tap YouTube.
+En la web la búsqueda pasa por un teléfono Android enlazado, y ahora no hay ninguno. | On the web the search goes through a linked Android phone, and there is none right now.
+No se encontró un video con esa búsqueda. | No video was found for that search.
