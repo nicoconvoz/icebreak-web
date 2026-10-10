@@ -62,31 +62,6 @@
       ]
     },
     {
-      "svg": "perfil",
-      "title": "Perfil",
-      "what": "Tu perfil y el de las personas cercanas.",
-      "buttons": [
-        {
-          "svg": "perfil",
-          "label": "Perfiles",
-          "does": "Tu perfil arriba (tocá para editarlo) y los perfiles de la gente cerca."
-        },
-        {
-          "svg": "star",
-          "label": "Favoritos",
-          "does": "Las personas que marcaste con estrella: siguen visibles aunque se alejen."
-        },
-        {
-          "svg": "trash",
-          "label": "Ocultos 24 h",
-          "does": "Sacá a alguien de tus listas por un día: sigue pudiendo escribirte y lo ves conectado. A los amigos no se los oculta."
-        }
-      ],
-      "shots": [
-        "perfil.jpg"
-      ]
-    },
-    {
       "svg": "usuarios",
       "title": "Usuarios",
       "what": "Quién está cerca. La barrita de color dice qué tan lejos: verde muy cerca, después amarillo, naranja, rojo; violeta fuera de tu alcance y gris desconectado.",
@@ -100,6 +75,11 @@
           "svg": "search",
           "label": "Buscar",
           "does": "Encontrá a alguien por su nombre."
+        },
+        {
+          "svg": "perfil",
+          "label": "Perfil",
+          "does": "Tu perfil y el de la gente cerca, con fotos, álbum y favoritos."
         },
         {
           "svg": "shield",
@@ -122,6 +102,31 @@
       ],
       "tips": [
         "Los cubitos de hielo que se derriten junto a un nombre marcan al fundador de ICEBREAK: salen por su llave verificada, así que nadie puede copiarlos con el apodo."
+      ]
+    },
+    {
+      "svg": "perfil",
+      "title": "Perfil",
+      "what": "Dentro de Usuarios, con su propio botón: tu perfil y el de las personas cercanas.",
+      "buttons": [
+        {
+          "svg": "perfil",
+          "label": "Perfiles",
+          "does": "Tu perfil arriba (tocá para editarlo) y los perfiles de la gente cerca."
+        },
+        {
+          "svg": "star",
+          "label": "Favoritos",
+          "does": "Las personas que marcaste con estrella: siguen visibles aunque se alejen."
+        },
+        {
+          "svg": "trash",
+          "label": "Ocultos 24 h",
+          "does": "Sacá a alguien de tus listas por un día: sigue pudiendo escribirte y lo ves conectado. A los amigos no se los oculta."
+        }
+      ],
+      "shots": [
+        "perfil.jpg"
       ]
     },
     {
@@ -207,6 +212,51 @@
       "tips": [
         "A la vista quedan el detective y la brújula; la ruleta, el Taller, los eventos, el ICEMARKET y el Baúl se abren tocando el botón redondo multicolor.",
         "La brújula lee los sensores del teléfono: gira con hacia dónde mirás, aunque estés parado. En el iPhone, desde Safari, tocá \"Activar brújula\"."
+      ]
+    },
+    {
+      "svg": "news",
+      "title": "Noticias",
+      "what": "Noticias y videos de canales oficiales, por tema o con tu propio texto, de hoy, la semana, el mes o el año, y del país, la provincia o la localidad que elijas.",
+      "buttons": [
+        {
+          "svg": "news",
+          "label": "Noticias",
+          "does": "Notas de diarios con foto y una breve descripción, como los estados; \"Ver nota original\" abre la nota en su sitio."
+        },
+        {
+          "svg": "play",
+          "label": "Videos",
+          "does": "Videos de canales oficiales de noticias, con título y descripción, para ver desde IceBreak."
+        },
+        {
+          "svg": "video",
+          "label": "En vivo",
+          "does": "Los canales oficiales que están transmitiendo en este momento, con una imagen de vista previa; la transmisión empieza recién cuando tocás \"Ver en vivo\"."
+        },
+        {
+          "svg": "send",
+          "label": "Compartir",
+          "does": "Cada noticia, video o canal en vivo se puede compartir como estado o mandar a un contacto por su chat privado."
+        },
+        {
+          "svg": "funnel",
+          "label": "Filtro",
+          "does": "El botón de borde de colores: elegí cuándo (hoy, esta semana, un mes, último año) y dónde (país, provincia o estado, localidad); cada parte se activa sola si la querés."
+        },
+        {
+          "svg": "list",
+          "label": "Tema",
+          "does": "General, política, deportes, clima y más, u \"Otro tema…\" para escribir el tuyo."
+        },
+        {
+          "svg": "next",
+          "label": "Páginas",
+          "does": "De a una página por vez, con Anterior y Siguiente, para que la app no se cargue."
+        }
+      ],
+      "shots": [
+        "noticias.jpg"
       ]
     },
     {

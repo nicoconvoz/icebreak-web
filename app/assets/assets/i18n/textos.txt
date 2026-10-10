@@ -1642,3 +1642,66 @@ Salud pública | Public health
 El sitio oficial de salud del país: prevención, vacunas, servicios y alertas sanitarias. | The country's official health site: prevention, vaccines, services and health alerts.
 Línea de ayuda en crisis | Crisis helpline
 Atención gratuita y confidencial para quien está pasando un momento difícil o piensa en el suicidio. | Free, confidential support for anyone going through a hard time or thinking about suicide.
+
+# News
+Noticias | News
+Videos | Videos
+Noticias y videos de canales oficiales, por tema o con tu propio texto, filtrados por fecha y lugar. | News and videos from official channels, by topic or your own text, filtered by date and place.
+Cuándo | When
+Dónde | Where
+Hoy | Today
+Esta semana | This week
+Un mes | A month
+Último año | Last year
+País | Country
+Provincia o estado | Province or state
+Localidad | Town
+General | General
+Política | Politics
+Economía | Economy
+Deportes | Sports
+Policiales | Crime
+Espectáculos | Entertainment
+Clima | Weather
+Otro tema… | Other topic…
+Ver nota original | Read the original article
+Reproducir | Play
+VIDEO | VIDEO
+Anterior | Previous
+Página {n} | Page {n}
+Abrir en YouTube | Open on YouTube
+Filtro: cuándo y dónde | Filter: when and where
+Escribí el tipo de noticia (ej: vendimia) | Type the kind of news (e.g. harvest festival)
+En la web las noticias llegan desde un teléfono Android enlazado, y ahora no hay ninguno cerca. Probá en un rato o desde la app. | On the web, news comes through a linked Android phone, and there is none nearby right now. Try again in a while or from the app.
+No se pudieron traer noticias. Revisá la conexión y probá de nuevo. | The news could not be fetched. Check the connection and try again.
+Los canales oficiales no tienen videos con esa búsqueda. Probá otro tema o sacá filtros. | The official channels have no videos for that search. Try another topic or remove filters.
+No hay noticias con esa búsqueda. Probá otro tema o sacá filtros. | There is no news for that search. Try another topic or remove filters.
+Dentro de Usuarios, con su propio botón: tu perfil y el de las personas cercanas. | Inside Users, with its own button: your profile and those of the people nearby.
+Tu perfil y el de la gente cerca, con fotos, álbum y favoritos. | Your profile and those of the people nearby, with photos, album and favorites.
+Noticias y videos de canales oficiales, por tema o con tu propio texto, de hoy, la semana, el mes o el año, y del país, la provincia o la localidad que elijas. | News and videos from official channels, by topic or your own text, from today, the week, the month or the year, and from the country, province or town you choose.
+Notas de diarios con foto y una breve descripción, como los estados; "Ver nota original" abre la nota en su sitio. | Newspaper stories with a photo and a short description, like statuses; "Read the original article" opens it on its site.
+Videos de canales oficiales de noticias, con título y descripción, para ver desde IceBreak. | Videos from official news channels, with title and description, to watch from IceBreak.
+El botón de borde de colores: elegí cuándo (hoy, esta semana, un mes, último año) y dónde (país, provincia o estado, localidad); cada parte se activa sola si la querés. | The colored-border button: choose when (today, this week, a month, last year) and where (country, province or state, town); each part turns on only if you want it.
+Tema | Topic
+General, política, deportes, clima y más, u "Otro tema…" para escribir el tuyo. | General, politics, sports, weather and more, or "Other topic…" to type your own.
+Páginas | Pages
+De a una página por vez, con Anterior y Siguiente, para que la app no se cargue. | One page at a time, with Previous and Next, so the app is never overloaded.
+
+# News: share and live
+Compartir | Share
+Compartir noticia | Share story
+Compartir video | Share video
+Compartir canal en vivo | Share live channel
+Compartir como estado | Share as a status
+Lo ve la gente cerca tuyo, con el link original | People near you see it, with the original link
+Por su chat privado | Through their private chat
+Compartido en tus estados. | Shared in your statuses.
+No se pudo compartir. | Could not share.
+Enviado a {k}. | Sent to {k}.
+En vivo | Live
+EN VIVO | LIVE
+Ver en vivo | Watch live
+Canales oficiales transmitiendo ahora | Official channels on air now
+Ningún canal oficial está transmitiendo ahora. Probá en un rato. | No official channel is on air right now. Try again in a while.
+Los canales oficiales que están transmitiendo en este momento, con una imagen de vista previa; la transmisión empieza recién cuando tocás "Ver en vivo". | The official channels on air right now, with a preview image; the broadcast starts only when you tap "Watch live".
+Cada noticia, video o canal en vivo se puede compartir como estado o mandar a un contacto por su chat privado. | Every story, video or live channel can be shared as a status or sent to a contact through their private chat.
