@@ -171,14 +171,9 @@
       "what": "Cofres escondidos en tu zona: los encontrás con el mapa y la brújula, y los abrís con una llave.",
       "buttons": [
         {
-          "svg": "detective",
-          "label": "Buscar",
-          "does": "Empezá la búsqueda del tesoro más cercano."
-        },
-        {
           "svg": "compass",
           "label": "Brújula",
-          "does": "Te señala el tesoro más cercano a vos entre todos los de tu zona, y abajo dice cuántos cofres hay y a qué distancia aproximada está el más cercano. Los cofres pasan de teléfono en teléfono, así los ven todos aunque quien los escondió no esté conectado. Arriba, el mapa sigue tus pasos, marca por dónde caminaste y muestra con ondas la zona del cofre más cercano; la botella queda chiquita en la esquina. El mapa se mueve con el dedo y se acerca o aleja con dos dedos o con los botones + y −; el botón “Volver a mí” lo centra otra vez."
+          "does": "Es lo primero que se abre en Tesoros. Te señala el tesoro más cercano a vos entre todos los de tu zona, y abajo dice cuántos cofres hay y a qué distancia aproximada está el más cercano. Los cofres pasan de teléfono en teléfono, así los ven todos aunque quien los escondió no esté conectado. Arriba, el mapa sigue tus pasos, marca por dónde caminaste y muestra con ondas la zona del cofre más cercano; la botella queda chiquita en la esquina. El mapa se mueve con el dedo y se acerca o aleja con dos dedos o con los botones + y −; el botón “Volver a mí” lo centra otra vez. Debajo están tus llaves y el botón para comprar una. Al lado, el ícono de ICEMARKET."
         },
         {
           "svg": "dice",
