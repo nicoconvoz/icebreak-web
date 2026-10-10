@@ -1,0 +1,410 @@
+{
+  "title": "Guía de ICEBREAK",
+  "intro": "ICEBREAK es la red social de la gente que tenés cerca. Funciona de teléfono a teléfono, sin servidores: tus mensajes van cifrados y tu ubicación exacta nunca sale de tu celular.",
+  "steps": [
+    {
+      "svg": "postular",
+      "text": "Entrá con el QR de invitación de un amigo, o con la puerta abierta del fundador."
+    },
+    {
+      "svg": "perfil",
+      "text": "Completá tu perfil y subí 3 fotos: ganás más alcance para ver gente más lejos."
+    },
+    {
+      "svg": "estados",
+      "text": "Publicá tu primer estado y mirá lo que pasa a tu alrededor."
+    },
+    {
+      "svg": "chat",
+      "text": "Escribile a alguien. Si se hacen amigos, se pueden llamar y hacer videollamadas."
+    }
+  ],
+  "bar": "Arriba están las secciones. La flecha de la derecha muestra el resto: Citas, Salas, Ideas, Configuración y Apagar. Debajo de cada sección quedan a la vista los botones más usados; los demás se abren con el botón redondo multicolor de la derecha (si tiene un puntito rojo, adentro hay algo nuevo).",
+  "sections": [
+    {
+      "svg": "estados",
+      "title": "Estados",
+      "what": "Lo que publica la gente cerca tuyo en las últimas 24 horas.",
+      "buttons": [
+        {
+          "svg": "estados",
+          "label": "Estados cercanos",
+          "does": "Los estados de tu zona. Arriba elegís ver todos, solo amigos, solo mujeres o solo hombres."
+        },
+        {
+          "svg": "video",
+          "label": "Reels",
+          "does": "Videos cortos. Tocás la imagen y se abre a pantalla completa, con play, pausa y volumen."
+        },
+        {
+          "svg": "compose",
+          "label": "Crear Estado o Reel",
+          "does": "Publicá texto, una foto, un audio o grabá un reel de hasta 1 minuto."
+        },
+        {
+          "svg": "list",
+          "label": "Mis estados",
+          "does": "Tus publicaciones. Las podés editar durante 24 horas."
+        },
+        {
+          "svg": "reactions",
+          "label": "Ver reacciones",
+          "does": "Quién reaccionó o comentó tus estados."
+        },
+        {
+          "svg": "refresh",
+          "label": "Actualizar",
+          "does": "Vuelve a buscar estados nuevos."
+        }
+      ],
+      "shots": [
+        "estados.jpg"
+      ]
+    },
+    {
+      "svg": "usuarios",
+      "title": "Usuarios",
+      "what": "Quién está cerca. La barrita de color dice qué tan lejos: verde muy cerca, después amarillo, naranja, rojo; violeta fuera de tu alcance y gris desconectado.",
+      "buttons": [
+        {
+          "svg": "usuarios",
+          "label": "Cercanos",
+          "does": "La gente a tu alrededor, de la más cerca a la más lejos."
+        },
+        {
+          "svg": "search",
+          "label": "Buscar",
+          "does": "Encontrá a alguien por su nombre."
+        },
+        {
+          "svg": "perfil",
+          "label": "Perfil",
+          "does": "Tu perfil y el de la gente cerca, con fotos, álbum y favoritos."
+        },
+        {
+          "svg": "shield",
+          "label": "Fraternidades",
+          "does": "Grupos de la zona a los que te podés postular."
+        },
+        {
+          "svg": "funnel",
+          "label": "Filtro",
+          "does": "Elegí ver hombres, mujeres o ambos, y por localidad."
+        },
+        {
+          "svg": "iceberg",
+          "label": "Congelar lista",
+          "does": "Deja quieta la lista para mirarla tranquilo."
+        }
+      ],
+      "shots": [
+        "usuarios.jpg"
+      ],
+      "tips": [
+        "Los cubitos de hielo que se derriten junto a un nombre marcan al fundador de ICEBREAK: salen por su llave verificada, así que nadie puede copiarlos con el apodo."
+      ]
+    },
+    {
+      "svg": "perfil",
+      "title": "Perfil",
+      "what": "Dentro de Usuarios, con su propio botón: tu perfil y el de las personas cercanas.",
+      "buttons": [
+        {
+          "svg": "perfil",
+          "label": "Perfiles",
+          "does": "Tu perfil arriba (tocá para editarlo) y los perfiles de la gente cerca."
+        },
+        {
+          "svg": "star",
+          "label": "Favoritos",
+          "does": "Las personas que marcaste con estrella: siguen visibles aunque se alejen."
+        },
+        {
+          "svg": "trash",
+          "label": "Ocultos 24 h",
+          "does": "Sacá a alguien de tus listas por un día: sigue pudiendo escribirte y lo ves conectado. A los amigos no se los oculta."
+        }
+      ],
+      "shots": [
+        "perfil.jpg"
+      ]
+    },
+    {
+      "svg": "chat",
+      "title": "Chat",
+      "what": "Tus chats privados, cifrados de punta a punta.",
+      "buttons": [
+        {
+          "svg": "chat",
+          "label": "Chats",
+          "does": "Tus conversaciones. Arriba hay un buscador para encontrar a alguien rápido."
+        },
+        {
+          "svg": "mail",
+          "label": "Candidatos",
+          "does": "Mensajes de gente que no conocés: aceptás para seguir charlando."
+        },
+        {
+          "svg": "star",
+          "label": "Favoritos",
+          "does": "Tus chats marcados con estrella."
+        },
+        {
+          "svg": "trash",
+          "label": "Eliminar chats",
+          "does": "Borrá conversaciones de este teléfono."
+        }
+      ],
+      "tips": [
+        "Debajo del círculo de colores de cada chat: agregar como amigo y la palabra clave entre amigos (🔑 ******).",
+        "Tocando el círculo de colores aparecen llamada, videollamada, juegos, enviar ICE y bloquear.",
+        "Llamadas y videollamadas solo entre amigos. ✓ quiere decir que el mensaje llegó.",
+        "En la caja de escribir, el botón multicolor abre smileys, archivo, foto y nota de voz. Notas de voz: podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
+      ],
+      "shots": [
+        "chat.jpg"
+      ]
+    },
+    {
+      "svg": "detective",
+      "title": "Tesoros",
+      "what": "Cofres escondidos en tu zona: los encontrás con la brújula y los abrís con una llave.",
+      "buttons": [
+        {
+          "svg": "detective",
+          "label": "Buscar",
+          "does": "Empezá la búsqueda del tesoro más cercano."
+        },
+        {
+          "svg": "compass",
+          "label": "Brújula",
+          "does": "Te señala el tesoro más cercano a vos entre todos los de tu zona, y abajo dice cuántos cofres hay y a qué distancia aproximada está el más cercano. Los cofres pasan de teléfono en teléfono, así los ven todos aunque quien los escondió no esté conectado."
+        },
+        {
+          "svg": "dice",
+          "label": "Ruleta de tesoros",
+          "does": "Cada 10 ICE que gastás en el ICEMARKET te dan 3 giros (con tu cuenta de más de 3 días). Cada giro siembra un cofre en un lugar al azar de tu localidad: días ampliados, un casillero del Baúl, una guarida o ICE. Lo buscás con la brújula, igual que los demás."
+        },
+        {
+          "svg": "palette",
+          "label": "Taller",
+          "does": "Creá skins, marcos y premios con el editor de pixel art; abajo ves en vivo cómo va a quedar puesto."
+        },
+        {
+          "svg": "trophy",
+          "label": "Eventos de cofres",
+          "does": "Escondé un cofre con un premio de tu Baúl para que otros lo encuentren."
+        },
+        {
+          "svg": "ice",
+          "label": "ICEMARKET",
+          "does": "Comprá y vendé objetos con ICE, la moneda de la app. Con \"Probar\" ves el diseño puesto en tu propia tarjeta antes de comprarlo. De cada venta el creador cobra el 70 % y el 30 % se quema. La red te regala 3 ICE por día."
+        },
+        {
+          "svg": "chest",
+          "label": "Baúl",
+          "does": "Lo que encontraste o ganaste: skins, marcos, fondos y premios. Lo que te ponés lo ven todos; un objeto temporal se puede pausar, y descartar pide confirmación."
+        }
+      ],
+      "shots": [
+        "tesoros.jpg"
+      ],
+      "tips": [
+        "A la vista quedan el detective y la brújula; la ruleta, el Taller, los eventos, el ICEMARKET y el Baúl se abren tocando el botón redondo multicolor.",
+        "La brújula lee los sensores del teléfono: gira con hacia dónde mirás, aunque estés parado. En el iPhone, desde Safari, tocá \"Activar brújula\"."
+      ]
+    },
+    {
+      "svg": "news",
+      "title": "Noticias",
+      "what": "Noticias y videos de canales oficiales, por tema o con tu propio texto, de hoy, la semana, el mes o el año, y del país, la provincia o la localidad que elijas.",
+      "buttons": [
+        {
+          "svg": "news",
+          "label": "Noticias",
+          "does": "Notas de diarios con foto y una breve descripción, como los estados; \"Ver nota original\" abre la nota en su sitio."
+        },
+        {
+          "svg": "play",
+          "label": "Videos",
+          "does": "Videos de canales oficiales de noticias, con título y descripción, para ver desde IceBreak."
+        },
+        {
+          "svg": "video",
+          "label": "En vivo",
+          "does": "Los canales oficiales que están transmitiendo en este momento, con una imagen de vista previa; la transmisión empieza recién cuando tocás \"Ver en vivo\"."
+        },
+        {
+          "svg": "send",
+          "label": "Compartir",
+          "does": "Cada noticia, video o canal en vivo se puede compartir como estado o mandar a un contacto por su chat privado."
+        },
+        {
+          "svg": "funnel",
+          "label": "Filtro",
+          "does": "El botón de borde de colores: elegí cuándo (hoy, esta semana, un mes, último año) y dónde (país, provincia o estado, localidad); cada parte se activa sola si la querés."
+        },
+        {
+          "svg": "list",
+          "label": "Tema",
+          "does": "General, política, deportes, clima y más, u \"Otro tema…\" para escribir el tuyo."
+        },
+        {
+          "svg": "next",
+          "label": "Páginas",
+          "does": "De a una página por vez, con Anterior y Siguiente, para que la app no se cargue."
+        }
+      ],
+      "shots": [
+        "noticias.jpg"
+      ]
+    },
+    {
+      "svg": "citas",
+      "title": "Citas",
+      "what": "Para conocer a alguien. Está apagado hasta que lo activás arriba: así solo te ven quienes también buscan.",
+      "buttons": [
+        {
+          "svg": "citas",
+          "label": "Buscar cita",
+          "does": "Te muestra personas una por una: cruz o corazón."
+        },
+        {
+          "svg": "mail",
+          "label": "Mi lista",
+          "does": "Tus candidatos y corazones pendientes."
+        },
+        {
+          "svg": "heart",
+          "label": "Correspondidos",
+          "does": "Si los dos pusieron corazón, se abre el chat."
+        }
+      ],
+      "shots": [
+        "citas.jpg"
+      ]
+    },
+    {
+      "svg": "salas",
+      "title": "Salas",
+      "what": "Salas de chat de tu ciudad, tu provincia y tu país, hasta 50 personas, con voz para hablar en vivo. En una sala de provincia o de país te encontrás con gente de lejos, y en las salas Español y English, con gente de todo el mundo.",
+      "buttons": [
+        {
+          "svg": "salas",
+          "label": "Salas",
+          "does": "Entrá a una sala. Si está llena podés elegir entrar automático cuando haya lugar."
+        },
+        {
+          "svg": "shield",
+          "label": "Fraternidad",
+          "does": "Tu grupo y sus guaridas privadas."
+        },
+        {
+          "svg": "refresh",
+          "label": "Recientes",
+          "does": "Las salas donde estuviste."
+        },
+        {
+          "svg": "edit",
+          "label": "Apodo de sala",
+          "does": "El nombre con el que aparecés en las salas."
+        }
+      ],
+      "tips": [
+        "Dentro de una sala: chat, usuarios, privados y el botón de audio para hablar.",
+        "En un privado podés agregar a la persona como amigo, o cerrarlo con la X si no te gusta.",
+        "Para salir, la app te pregunta antes: así no perdés tu lugar sin querer.",
+        "En el audio de la sala, arriba se ve quién habla: vos en verde, una mujer en rosa y un hombre en celeste; con 🔑 si es un amigo con palabra clave."
+      ],
+      "shots": [
+        "salas.jpg",
+        "sala.jpg"
+      ]
+    },
+    {
+      "svg": "idea",
+      "title": "Ideas o quejas",
+      "what": "Ayudá a mejorar ICEBREAK y ganá días ampliados.",
+      "buttons": [
+        {
+          "svg": "idea",
+          "label": "Ideas o quejas",
+          "does": "Mandá una idea (+2 días) y una queja (+1 día) por día."
+        },
+        {
+          "svg": "list",
+          "label": "Guías útiles",
+          "does": "Debajo de la idea y la queja: guías públicas oficiales de cada país (alimentación, RCP, vacunas, sismos, derechos, internet segura y más), ordenadas por continente y país: tocás una rama y se abre solo esa. Se leen o descargan desde su sitio oficial, o se mandan a un contacto por el chat privado. Si una guía deja de estar en línea, la app avisa que no está disponible en este momento."
+        },
+        {
+          "svg": "ticket",
+          "label": "Mis tickets",
+          "does": "Lo que mandaste."
+        },
+        {
+          "svg": "trophy",
+          "label": "Recompensas",
+          "does": "Qué ganás por cada una."
+        }
+      ],
+      "shots": [
+        "ideas.jpg"
+      ]
+    },
+    {
+      "svg": "gear",
+      "title": "Configuración",
+      "what": "Tu cuenta, la app y la guía.",
+      "buttons": [
+        {
+          "svg": "heart",
+          "label": "Acerca de Nico",
+          "does": "Unas palabras del creador y el Diario Espiritual: Dios y un alma, en audio y en PDF."
+        },
+        {
+          "svg": "postular",
+          "label": "Invitar con QR",
+          "does": "Mostrá tu QR a un amigo para sumarlo a la red: ganás metros y días."
+        },
+        {
+          "svg": "ice",
+          "label": "Billetera",
+          "does": "Tus ICE: la moneda de la app, para llaves, espacios y más."
+        },
+        {
+          "svg": "volume",
+          "label": "Sonidos",
+          "does": "Tonos de mensajes y llamadas, si las llamadas suenan o vibran, y los sonidos de los juegos."
+        },
+        {
+          "svg": "chat",
+          "label": "Idioma",
+          "does": "La app en español o en inglés. Se elige al crear la cuenta y se cambia acá cuando quieras."
+        },
+        {
+          "svg": "palette",
+          "label": "Skins",
+          "does": "Cambiá el aspecto de la app."
+        },
+        {
+          "svg": "list",
+          "label": "Guía de uso",
+          "does": "Esta guía, siempre a mano."
+        }
+      ],
+      "shots": [
+        "configuracion.jpg"
+      ]
+    },
+    {
+      "svg": "power",
+      "title": "Apagar",
+      "what": "Desconectate cuando quieras: nadie te ve y no te llegan mensajes ni llamadas hasta que vuelvas.",
+      "buttons": [],
+      "shots": [
+        "apagar.jpg",
+        "desconectado.jpg"
+      ]
+    }
+  ]
+}
