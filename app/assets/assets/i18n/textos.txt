@@ -1762,3 +1762,27 @@ No se pudo abrir. | It could not be opened.
 llave permanente | permanent key
 tocá para abrir | tap to open
 Cofre cerrado · {c} | Closed chest · {c}
+
+# The way in and the welcome chests
+ENTRAR A ICEBREAK | ENTER ICEBREAK
+Aceptá los términos y tocá Entrar a ICEBREAK: en unos segundos estás adentro. | Accept the terms and tap Enter ICEBREAK: you are in within seconds.
+La entrada no está disponible desde este teléfono ahora. Si ya tenías cuenta, recuperala con tus 16 palabras. | The way in is not available from this phone right now. If you already had an account, recover it with your 16 words.
+Cofre de bienvenida | Welcome chest
++{n} m² de alcance | +{n} m² of reach
+Padrino de {n} | Sponsor of {n}
+un recién llegado | a newcomer
+Encontrar el cofre de bienvenida de alguien nuevo | Find a newcomer's welcome chest
++20 m² o ser su padrino (1 % de sus compras) | +20 m² or become their sponsor (1 % of their purchases)
+Es tu propio cofre de bienvenida: lo buscan los demás. | It is your own welcome chest: the others look for it.
+Este cofre de bienvenida ya venció. | This welcome chest has expired.
+Ya abriste el otro cofre de esta persona: este queda para otro. | You already opened this person's other chest: this one is for someone else.
+usuario | user
+usuarios | users
+Otros países | Other countries
+Todavía sin zona | No zone yet
+América | Americas
+Europa | Europe
+África | Africa
+Oceanía | Oceania
+Antártida | Antarctica
+Otros | Others
