@@ -377,6 +377,11 @@
           "does": "La app en español o en inglés. Se elige al crear la cuenta y se cambia acá cuando quieras."
         },
         {
+          "svg": "save",
+          "label": "Cuenta",
+          "does": "Tus 16 palabras y el respaldo de la cuenta: tus contactos y tu personalización en un archivo sellado que guardás en tu nube. Solo se abre con tus mismas 16 palabras, en tu misma cuenta. Los chats no van."
+        },
+        {
           "svg": "palette",
           "label": "Skins",
           "does": "Cambiá el aspecto de la app."

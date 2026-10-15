@@ -242,6 +242,15 @@ Llave de acceso | Access key
 Tu cuenta es tu llave y vive solo en tu teléfono. Las actualizaciones la conservan. Si cambiás de teléfono, la recuperás con tus 16 palabras. | Your account is your key and it lives only on your phone. Updates keep it. If you change phones, you recover it with your 16 words.
 Ocultar | Hide
 Mostrar mis 16 palabras | Show my 16 words
+Respaldo de la cuenta | Account backup
+Tus contactos y tu personalización (perfil, skins, ajustes) en un archivo sellado y firmado por tu cuenta. Guardalo en tu nube o donde quieras: solo se abre con tus mismas 16 palabras, en tu misma cuenta. Los chats no van. | Your contacts and your personalization (profile, skins, settings) in a file sealed and signed by your account. Keep it in your cloud or wherever you like: it only opens with your same 16 words, on your same account. Chats are not included.
+Guardar respaldo | Save backup
+Restaurar respaldo | Restore backup
+Este teléfono no tiene tus 16 palabras: recuperá la cuenta con ellas para respaldarla. | This phone does not have your 16 words: recover the account with them to back it up.
+Respaldo guardado. Solo se abre con tus 16 palabras. | Backup saved. It only opens with your 16 words.
+Ese respaldo es de otra cuenta. | That backup belongs to another account.
+No es un respaldo válido o fue modificado. | It is not a valid backup, or it was modified.
+Respaldo restaurado. ICEBREAK se cierra para cargarlo: volvé a abrirla. | Backup restored. ICEBREAK closes to load it: open it again.
 Tu nombre real y tu teléfono nunca se comparten. Los demás ven solo tu apodo, tu tarjeta y una celda de 100 m. | Your real name and your phone number are never shared. Others only see your nickname, your card and a 100 m cell.
 Eliminar cuenta | Delete account
 Cada skin es un paquete de tokens: colores, tipografía, bordes y texturas. Los componentes no tienen colores fijos. Los skins nuevos salen de los tesoros o los crea la gente en el Taller. | Every skin is a bundle of tokens: colors, typography, borders and textures. Components have no fixed colors. New skins come from treasures or are made by people in the Workshop.
