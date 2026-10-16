@@ -159,6 +159,7 @@
         "Debajo del círculo de colores de cada chat: agregar como amigo y la palabra clave entre amigos (🔑 ******).",
         "Tocando el círculo de colores aparecen llamada, videollamada, juegos, enviar ICE y bloquear.",
         "Llamadas y videollamadas solo entre amigos. ✓ quiere decir que el mensaje llegó.",
+        "Si la otra persona está desconectada, escribile igual: el mensaje dice 🕓 Pronto se entregará y le llega solo cuando los dos estén conectados. Las noticias que mandes por el chat o compartas en tus estados se ven con el título en negrita, la foto, la descripción y un botón Abrir nota.",
         "En la caja de escribir, el botón multicolor abre smileys, archivo, foto y nota de voz. Notas de voz: podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Al escuchar una nota, la barra lleva a cualquier parte (adelantar o atrasar) y el botón x1 la pasa a x1.5 o x2. Los videos (MP4 y otros) que mandes como archivo se ven dentro del chat. Entre amigos, los enlaces se ven con su foto, título y detalle, y se abren con un toque; los de YouTube se ven dentro de IceBreak. El botón Ubicación (en el anillo multicolor) muestra tu lugar en un mapa chico y, si confirmás, se lo manda solo a esa persona, cifrado; se abre en el mapa con un toque. El botón YouTube (en el anillo multicolor) busca lo que escribiste en la caja y manda al chat el primer video que encuentra. Las llamadas y videollamadas quedan anotadas en la conversación: hechas, recibidas con su duración, sin respuesta o perdidas (en rojo). Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."
       ],
       "shots": [
@@ -391,6 +392,11 @@
           "label": "Guía de uso",
           "does": "Esta guía, siempre a mano."
         }
+      ],
+      "tips": [
+        "Hacer el respaldo: Configuración → Cuenta → Guardar respaldo. Elegí dónde guardarlo: Google Drive, tu nube, el teléfono o un correo a vos mismo (en la computadora se descarga). El archivo va sellado y firmado por tu cuenta: sin tus 16 palabras nadie puede abrirlo.",
+        "Restaurarlo en un teléfono nuevo: instalá ICEBREAK, tocá «Ya tengo cuenta: recuperarla» y escribí tus 16 palabras. Después entrá a Configuración → Cuenta → Restaurar respaldo y elegí el archivo. La app se cierra para cargarlo: volvé a abrirla y están tus contactos, tu perfil, tus skins y tus ajustes.",
+        "Un respaldo solo se abre en la misma cuenta y con las mismas 16 palabras: si es de otra cuenta o fue modificado, la app lo rechaza. Los chats no se guardan en el respaldo. Guardá tus 16 palabras aparte del archivo."
       ],
       "shots": [
         "configuracion.jpg"

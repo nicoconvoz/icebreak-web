@@ -532,7 +532,7 @@ Solicitud enviada a {k}. Cuando la acepte, quedan como amigos. | Request sent to
 Solicitud de amistad enviada · esperando que acepte | Friend request sent · waiting for them to accept
 Aceptar amistad de {k} | Accept friendship from {k}
 Tu mensaje le llega como candidato: si acepta, siguen charlando. | Your message reaches them as a candidate: if they accept, you keep chatting.
-{k} está desconectado. Cuando vuelva a conectarse vas a poder escribirle y llamarlo. | {k} is offline. When they come back online you will be able to write and call.
+{k} está desconectado. Escribile igual: le llega cuando los dos estén conectados. | {k} is offline. Write anyway: it reaches them when you are both connected.
 Bloqueaste a {k}: no recibís sus mensajes ni llamadas. | You blocked {k}: you get no messages or calls from them.
 Desbloquear | Unblock
 Smileys | Smileys
@@ -547,7 +547,8 @@ Nota de voz · llegando… | Voice note · arriving…
 Nota de voz · {b} | Voice note · {b}
 {b} · llegó por P2P | {b} · arrived over P2P
 🚫 Mensaje eliminado | 🚫 Message deleted
-⚠ No enviado · tocá para reintentar | ⚠ Not sent · tap to retry
+🕓 Pronto se entregará | 🕓 Will be delivered soon
+Abrir nota | Open story
 Quitar mi carita | Remove my reaction
 Editar | Edit
 Eliminar para mí | Delete for me
