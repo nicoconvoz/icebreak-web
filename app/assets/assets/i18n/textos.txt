@@ -549,6 +549,9 @@ Nota de voz · {b} | Voice note · {b}
 🚫 Mensaje eliminado | 🚫 Message deleted
 🕓 Pronto se entregará | 🕓 Will be delivered soon
 Abrir nota | Open story
+Radio cercana (Bluetooth) | Nearby radio (Bluetooth)
+Enlazar con teléfonos de al lado | Link with phones next to you
+Opcional y apagada de entrada: encendida, la app prende el Bluetooth y el Wi-Fi Direct para enlazar sin Internet con los teléfonos cercanos. Apagada, todo funciona por Internet. | Optional and off at first: when on, the app turns on Bluetooth and Wi-Fi Direct to link with nearby phones without Internet. When off, everything works over the Internet.
 Quitar mi carita | Remove my reaction
 Editar | Edit
 Eliminar para mí | Delete for me

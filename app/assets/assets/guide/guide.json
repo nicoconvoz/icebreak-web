@@ -396,6 +396,7 @@
       "tips": [
         "Hacer el respaldo: Configuración → Cuenta → Guardar respaldo. Elegí dónde guardarlo: Google Drive, tu nube, el teléfono o un correo a vos mismo (en la computadora se descarga). El archivo va sellado y firmado por tu cuenta: sin tus 16 palabras nadie puede abrirlo.",
         "Restaurarlo en un teléfono nuevo: instalá ICEBREAK, tocá «Ya tengo cuenta: recuperarla» y escribí tus 16 palabras. Después entrá a Configuración → Cuenta → Restaurar respaldo y elegí el archivo. La app se cierra para cargarlo: volvé a abrirla y están tus contactos, tu perfil, tus skins y tus ajustes.",
+        "Radio cercana (Bluetooth): está apagada de entrada y la app nunca prende el Bluetooth sola. Si querés enlazar sin Internet con los teléfonos de al lado, encendela en Configuración → Red → Radio cercana. Apagada, todo funciona por Internet.",
         "Un respaldo solo se abre en la misma cuenta y con las mismas 16 palabras: si es de otra cuenta o fue modificado, la app lo rechaza. Los chats no se guardan en el respaldo. Guardá tus 16 palabras aparte del archivo."
       ],
       "shots": [
