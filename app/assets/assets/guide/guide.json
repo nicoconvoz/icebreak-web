@@ -58,7 +58,8 @@
         }
       ],
       "tips": [
-        "Tocá la foto de un estado para verla a pantalla completa: se baja sola la versión nítida, así se leen hasta las letras chicas. Con dos dedos hacés zoom."
+        "Tocá la foto de un estado para verla a pantalla completa: se baja sola la versión nítida, así se leen hasta las letras chicas. Con dos dedos hacés zoom.",
+        "Un estado puede llevar hasta 4 fotos: se pasan deslizando con el dedo. Manteniendo apretado el texto de un estado (o un mensaje del privado) lo copiás."
       ],
       "shots": [
         "estados.jpg"
@@ -161,6 +162,7 @@
       "tips": [
         "Debajo del círculo de colores de cada chat: agregar como amigo y la palabra clave entre amigos (🔑 ******).",
         "Tocando el círculo de colores aparecen llamada, videollamada, juegos, enviar ICE y bloquear.",
+        "Juegos (en el círculo de colores del chat, o contra el teléfono): truco, escoba, batalla naval, pool, ajedrez y reversi. Al terminar, Revancha vuelve a invitar al mismo rival. Una invitación suena al llegar; si estás en medio de una partida, a quien te invita le aparece que ya estás jugando con otra persona. La máquina piensa liviano para no cansar el teléfono.",
         "Llamadas y videollamadas solo entre amigos. ✓ quiere decir que el mensaje llegó.",
         "Si la otra persona está desconectada, escribile igual: el mensaje dice 🕓 Pronto se entregará y le llega solo cuando los dos estén conectados. Las noticias que mandes por el chat o compartas en tus estados se ven con el título en negrita, la foto, la descripción y un botón Abrir nota.",
         "En la caja de escribir, el botón multicolor abre smileys, archivo, foto y nota de voz. Notas de voz: podés pausar y seguir, escucharla antes de mandarla o tirarla a la papelera. Al escuchar una nota, la barra lleva a cualquier parte (adelantar o atrasar) y el botón x1 la pasa a x1.5 o x2. Los videos (MP4 y otros) que mandes como archivo se ven dentro del chat. Entre amigos, los enlaces se ven con su foto, título y detalle, y se abren con un toque; los de YouTube se ven dentro de IceBreak. El botón Ubicación (en el anillo multicolor) muestra tu lugar en un mapa chico y, si confirmás, se lo manda solo a esa persona, cifrado; se abre en el mapa con un toque. El botón YouTube (en el anillo multicolor) busca lo que escribiste en la caja y manda al chat el primer video que encuentra. Las llamadas y videollamadas quedan anotadas en la conversación: hechas, recibidas con su duración, sin respuesta o perdidas (en rojo). Fotos: una o varias a la vez, en copia liviana (JPG) u original con toda su calidad. Fotos y archivos de hasta 50 MB van directo a esa persona, con una barra que muestra cuándo llegaron."

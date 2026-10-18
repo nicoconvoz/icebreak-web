@@ -549,6 +549,8 @@ Nota de voz · {b} | Voice note · {b}
 🚫 Mensaje eliminado | 🚫 Message deleted
 🕓 Pronto se entregará | 🕓 Will be delivered soon
 Abrir nota | Open story
+en línea | online
+fuera de alcance | out of reach
 Radio cercana (Bluetooth) | Nearby radio (Bluetooth)
 Enlazar con teléfonos de al lado | Link with phones next to you
 Opcional y apagada de entrada: encendida, la app prende el Bluetooth y el Wi-Fi Direct para enlazar sin Internet con los teléfonos cercanos. Apagada, todo funciona por Internet. | Optional and off at first: when on, the app turns on Bluetooth and Wi-Fi Direct to link with nearby phones without Internet. When off, everything works over the Internet.
@@ -1799,3 +1801,47 @@ Europa | Europe
 Oceanía | Oceania
 Antártida | Antarctica
 Otros | Others
+
+# Chess and reversi
+Ajedrez | Chess
+El clásico, con jaque, enroque y coronación | The classic, with check, castling and promotion
+Reversi | Reversi
+Encerrá las fichas del rival y dalas vuelta | Close in your rival's discs and turn them over
+Te toca | Your turn
+Le toca a {who} | {who}'s turn
+{who} está pensando… | {who} is thinking…
+¡Jaque! Mové tu rey o tapá | Check! Move your king or block
+¡Jaque mate! Ganaste 🏆 | Checkmate! You won 🏆
+Jaque mate · ganó {who} | Checkmate · {who} won
+Tablas · {reason} | Draw · {reason}
+jaque mate | checkmate
+ahogado | stalemate
+triple repetición | threefold repetition
+50 movimientos | 50 moves
+material insuficiente | insufficient material
+Tablas | Draw
+Tablas de común acuerdo | Draw by agreement
+Abandonaste | You resigned
+{who} abandonó | {who} resigned
+Ofrecer tablas | Offer a draw
+Le ofreciste tablas a {who}. | You offered {who} a draw.
+{who} te ofrece tablas | {who} offers you a draw
+Seguir jugando | Keep playing
+Aceptar tablas | Accept the draw
+Abandonar | Resign
+¿Abandonar la partida? | Resign the game?
+Seguir | Continue
+Coronar: elegí la pieza | Promote: choose the piece
+{n} jugadas | {n} moves
+{who} no tiene jugadas: pasa | {who} has no move: passes
+No tenés jugadas: pasás | You have no move: you pass
+¡Ganaste! 🏆 | You won! 🏆
+Empate | Tie
+{who} ya está jugando con otra persona. | {who} is already playing with someone else.
+Invitación a jugar | Game invitation
+Copiar texto | Copy text
+Texto copiado | Text copied
+Elegir fotos | Choose photos
+Agregar fotos | Add photos
+Hasta {n} fotos. Viajan en JPEG: primero una vista previa liviana, la alta cuando alguien la pide. | Up to {n} photos. They travel as JPEG: first a light preview, the sharp one when someone asks for it.
+{a} de {b} fotos · la primera es la portada | {a} of {b} photos · the first one is the cover
