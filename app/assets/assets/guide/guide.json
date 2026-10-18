@@ -57,6 +57,9 @@
           "does": "Vuelve a buscar estados nuevos."
         }
       ],
+      "tips": [
+        "Tocá la foto de un estado para verla a pantalla completa: se baja sola la versión nítida, así se leen hasta las letras chicas. Con dos dedos hacés zoom."
+      ],
       "shots": [
         "estados.jpg"
       ]
