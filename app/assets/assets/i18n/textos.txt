@@ -487,6 +487,12 @@ Activar | Turn on
 Auricular | Earpiece
 Altavoz | Speaker
 Girar cámara | Flip camera
+Compartir pantalla | Share screen
+Dejar de compartir | Stop sharing
+Estás compartiendo tu pantalla | You are sharing your screen
+Te está mostrando su pantalla | They are showing you their screen
+Sin permiso para compartir la pantalla. | No permission to share the screen.
+No se pudo compartir la pantalla. | The screen could not be shared.
 Rechazar | Decline
 
 # Chats
@@ -1845,3 +1851,33 @@ Elegir fotos | Choose photos
 Agregar fotos | Add photos
 Hasta {n} fotos. Viajan en JPEG: primero una vista previa liviana, la alta cuando alguien la pide. | Up to {n} photos. They travel as JPEG: first a light preview, the sharp one when someone asks for it.
 {a} de {b} fotos · la primera es la portada | {a} of {b} photos · the first one is the cover
+🎨 Pixel art | 🎨 Pixel art
+🖌️ Estilo | 🖌️ Style
+Así se ve | This is how it looks
+Tarjeta oscura | Dark card
+Y así | And like this
+Tarjeta clara | Light card
+Un texto en una caja, para ver que se lee bien. | Some text in a box, to check it reads well.
+Botón | Button
+Otro | Another
+El texto no se distingue bien de las tarjetas o del fondo: elegí un texto más claro u oscuro. | The text does not stand out from the cards or the background: choose a lighter or darker text.
+Colores | Colours
+Fondo de la app | App background
+Tarjetas y cajas | Cards and boxes
+Botones (acento) | Buttons (accent)
+Letra y esquinas | Typeface and corners
+Tipografía | Typeface
+Esquinas | Corners
+Arte (de tus dibujos del Taller) | Art (from your Taller drawings)
+Formas únicas | Unique shapes
+Un tejido hecho con tu estilo: tus colores, tus esquinas y las siluetas de tu fondo dibujado. Tu diseño es la semilla y cada teléfono teje su propia composición. | A weave made from your style: your colours, your corners and the silhouettes of your drawn wallpaper. Your design is the seed and every phone weaves its own.
+Textura de botón | Button texture
+Fondo de pantalla | Wallpaper
+Fondo de pantalla (se repite) | Wallpaper (repeats)
+{label}: dibujala primero en "Qué vas a dibujar" y guardala. | {label}: draw it first in "What you will draw" and save it.
+Ninguna | None
+Nombre de tu estilo | Name of your style
+Cambia toda la app: colores, letra, esquinas, botones y fondo. Se vende en el ICEMARKET o se esconde en cofres. | It changes the whole app: colours, typeface, corners, buttons and background. Sell it in the ICEMARKET or hide it in chests.
+Estilo de la app | App style
+Estilo de la gente | Style made by people
+Guardado para siempre | Kept for good
