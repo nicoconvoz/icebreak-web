@@ -1,4 +1,4 @@
-# ICEBREAK — texts of the app in Spanish and English.
+# Wenas — texts of the app in Spanish and English.
 # One pair per line: Spanish | English. A {name} blank stands for a number or a name and must appear on both sides.
 # Lines starting with # are comments. A text with no pair is shown in Spanish.
 
@@ -73,8 +73,8 @@ Apagar | Turn off
 
 # Session notices
 La ubicación del teléfono está apagada: activala desde el panel rápido. | The phone's location is off: turn it on from the quick panel.
-Falta el permiso de ubicación: aceptalo cuando IceBreak lo pida. | Location permission is missing: accept it when IceBreak asks.
-El permiso de ubicación quedó bloqueado: activalo en Ajustes del teléfono → Apps → IceBreak → Permisos. | Location permission is blocked: turn it on in the phone's Settings → Apps → IceBreak → Permissions.
+Falta el permiso de ubicación: aceptalo cuando Wenas lo pida. | Location permission is missing: accept it when Wenas asks.
+El permiso de ubicación quedó bloqueado: activalo en Ajustes del teléfono → Apps → Wenas → Permisos. | Location permission is blocked: turn it on in the phone's Settings → Apps → Wenas → Permissions.
 Buscando señal de GPS… Si estás bajo techo, acercate a una ventana. | Looking for GPS signal… If you are indoors, move closer to a window.
 Teléfono | Phone
 No se pudo comprar: saldo insuficiente o es tu propio diseño. | Could not buy: not enough balance, or it is your own design.
@@ -93,12 +93,12 @@ Gente de todo el mundo que habla español. | People from all over the world who 
 Conocé gente de toda la {p}. | Meet people from all of {p}.
 Conocé gente de {c}. | Meet people from {c}.
 La puerta abierta no está disponible desde este teléfono. | The open door is not available from this phone.
-{name} · Creador de ICEBREAK | {name} · Creator of ICEBREAK
-Ese código no es una invitación de IceBreak. | That code is not an IceBreak invitation.
+{name} · Creador de Wenas | {name} · Creator of Wenas
+Ese código no es una invitación de Wenas. | That code is not a Wenas invitation.
 La invitación fue alterada. | The invitation was tampered with.
 La invitación venció: pedí una nueva. | The invitation expired: ask for a new one.
 Invitación inválida. | Invalid invitation.
-Quien te invitó no respondió. Tiene que tener IceBreak abierto a pocos metros. | Whoever invited you did not answer. They must have IceBreak open a few meters away.
+Quien te invitó no respondió. Tiene que tener Wenas abierto a pocos metros. | Whoever invited you did not answer. They must have Wenas open a few meters away.
 Solo el fundador puede dar órdenes. | Only the founder can give orders.
 La orden no se aceptó ({reason}). | The order was not accepted ({reason}).
 No te alcanza el ICE (una llave cuesta {keyPrice} ICE). | Not enough ICE (a key costs {keyPrice} ICE).
@@ -121,12 +121,12 @@ Este premio lo emitió otra persona: solo ella lo canjea. | Someone else issued 
 Quien lo tiene primero debe tocar "Presentar para canjear". | Whoever holds it must first tap "Present for redemption".
 Este premio ya fue canjeado. | This prize was already redeemed.
 Este premio venció. | This prize expired.
-Ese QR no es un premio válido de IceBreak. | That QR is not a valid IceBreak prize.
+Ese QR no es un premio válido de Wenas. | That QR is not a valid Wenas prize.
 un miembro | a member
 DESCONECTADO · nadie te ve | OFFLINE · nobody sees you
 
 # Shell
-Instalar IceBreak en el iPhone | Install IceBreak on the iPhone
+Instalar Wenas en el iPhone | Install Wenas on the iPhone
 1. Abrí esta página en Safari. | 1. Open this page in Safari.
 2. Tocá el botón Compartir ⬆️ (abajo, o arriba en el iPad). | 2. Tap the Share button ⬆️ (at the bottom, or at the top on the iPad).
 3. Elegí "Agregar a inicio" y tocá Agregar. | 3. Choose "Add to Home Screen" and tap Add.
@@ -134,7 +134,7 @@ Aparece el ícono IB y se abre a pantalla completa, como una app. Así también 
 Se liberó un lugar: entraste a {name}. | A spot opened up: you joined {name}.
 Mensaje nuevo en Chat | New message in Chat
 Mensaje nuevo | New message
-Tenés un mensaje en IceBreak | You have a message on IceBreak
+Tenés un mensaje en Wenas | You have a message on Wenas
 Nota de voz | Voice note
 Archivo | File
 Foto | Photo
@@ -147,14 +147,14 @@ Volver a conectarme | Reconnect
 Esperando lugar en {waiting}… | Waiting for a spot in {waiting}…
 Entrás solo apenas se libere uno. | You join by yourself as soon as one opens up.
 Cancelar | Cancel
-Instalá IceBreak en tu iPhone | Install IceBreak on your iPhone
-Instalá IceBreak como app | Install IceBreak as an app
+Instalá Wenas en tu iPhone | Install Wenas on your iPhone
+Instalá Wenas como app | Install Wenas as an app
 Tocá Compartir ⬆️ y elegí "Agregar a inicio". | Tap Share ⬆️ and choose "Add to Home Screen".
 Queda el ícono IB en tu pantalla de inicio. | The IB icon stays on your home screen.
 Instalar | Install
 Cómo | How
 Ahora no | Not now
-Hay una versión nueva de IceBreak ({webVersion}). | There is a new version of IceBreak ({webVersion}).
+Hay una versión nueva de Wenas ({webVersion}). | There is a new version of Wenas ({webVersion}).
 Recargar | Reload
 Actualizar | Update
 Más tarde | Later
@@ -250,7 +250,7 @@ Este teléfono no tiene tus 16 palabras: recuperá la cuenta con ellas para resp
 Respaldo guardado. Solo se abre con tus 16 palabras. | Backup saved. It only opens with your 16 words.
 Ese respaldo es de otra cuenta. | That backup belongs to another account.
 No es un respaldo válido o fue modificado. | It is not a valid backup, or it was modified.
-Respaldo restaurado. ICEBREAK se cierra para cargarlo: volvé a abrirla. | Backup restored. ICEBREAK closes to load it: open it again.
+Respaldo restaurado. Wenas se cierra para cargarlo: volvé a abrirla. | Backup restored. Wenas closes to load it: open it again.
 Tu nombre real y tu teléfono nunca se comparten. Los demás ven solo tu apodo, tu tarjeta y una celda de 100 m. | Your real name and your phone number are never shared. Others only see your nickname, your card and a 100 m cell.
 Eliminar cuenta | Delete account
 Cada skin es un paquete de tokens: colores, tipografía, bordes y texturas. Los componentes no tienen colores fijos. Los skins nuevos salen de los tesoros o los crea la gente en el Taller. | Every skin is a bundle of tokens: colors, typography, borders and textures. Components have no fixed colors. New skins come from treasures or are made by people in the Workshop.
@@ -368,7 +368,7 @@ Recargar la página | Reload the page
 Descargar {web} desde la web | Download {web} from the web
 Buscar actualización | Check for updates
 La versión web se actualiza al recargar la página. | The web version updates when you reload the page.
-Se abre la página de IceBreak para bajar el APK nuevo; Android pregunta antes de instalarlo. Tu cuenta, tu llave y tus datos se conservan al actualizar. | The IceBreak page opens to download the new APK; Android asks before installing it. Your account, your key and your data are kept when you update.
+Se abre la página de Wenas para bajar el APK nuevo; Android pregunta antes de instalarlo. Tu cuenta, tu llave y tus datos se conservan al actualizar. | The Wenas page opens to download the new APK; Android asks before installing it. Your account, your key and your data are kept when you update.
 
 # Wallet
 la red | the network
@@ -397,9 +397,9 @@ Vuelvo solo en {millisecondsSinceEpoch} | Back by itself at {millisecondsSinceEp
 # Welcome
 Escaneá el QR | Scan the QR
 Pidiendo tu carnet a quien te invitó… | Asking whoever invited you for your membership card…
-Mantené los dos teléfonos cerca, con IceBreak abierto. Enlaces: {links} | Keep both phones close, with IceBreak open. Links: {links}
+Mantené los dos teléfonos cerca, con Wenas abierto. Enlaces: {links} | Keep both phones close, with Wenas open. Links: {links}
 Enlazar cara a cara (sin radio) | Link face to face (no radio)
-Bienvenido a ICEBREAK | Welcome to ICEBREAK
+Bienvenido a Wenas | Welcome to Wenas
 Para entrar, escaneá la invitación de alguien que ya pertenece a la red, o entrá sin invitación. | To get in, scan the invitation of someone who already belongs to the network, or join without an invitation.
 ¿Tenés Android? Instalá la app: suma la radio entre teléfonos cercanos. | On Android? Install the app: it adds the radio between nearby phones.
 Descargar para Android | Download for Android
@@ -410,7 +410,7 @@ Escanear invitación QR | Scan QR invitation
 Escaneá la invitación | Scan the invitation
 Entrar sin invitación | Join without an invitation
 Ya tengo cuenta: recuperarla | I already have an account: recover it
-Entrás a la red por la puerta abierta del creador de ICEBREAK. Se puede una sola vez por teléfono y tu perfil va a mostrar que entraste sin invitación. Tu teléfono trabaja unos segundos para prepararte la llave. | You join the network through the open door of ICEBREAK's creator. It can be done only once per phone and your profile will show you joined without an invitation. Your phone works for a few seconds to prepare your key.
+Entrás a la red por la puerta abierta del creador de Wenas. Se puede una sola vez por teléfono y tu perfil va a mostrar que entraste sin invitación. Tu teléfono trabaja unos segundos para prepararte la llave. | You join the network through the open door of Wenas's creator. It can be done only once per phone and your profile will show you joined without an invitation. Your phone works for a few seconds to prepare your key.
 Entrar | Join
 Preparando tu llave… | Preparing your key…
 Recuperar mi cuenta | Recover my account
@@ -446,7 +446,7 @@ Mínimo 3 letras. | At least 3 letters.
 Máximo 15 caracteres. | At most 15 characters.
 Solo letras, números, punto o guion bajo. | Only letters, numbers, dot or underscore.
 Poné una edad válida. | Enter a valid age.
-IceBreak es para mayores de 18. | IceBreak is for people over 18.
+Wenas es para mayores de 18. | Wenas is for people over 18.
 Elegí cómo querés aparecer. | Choose how you want to appear.
 Contanos tu zona. | Tell us your area.
 Elegí al menos uno. | Choose at least one.
@@ -457,7 +457,7 @@ Las anoté en un lugar seguro | I wrote them down in a safe place
 Tu apodo es lo que ve la gente cerca tuyo. | Your nickname is what people near you see.
 Ej: Capitan86 | E.g. Captain86
 Edad y cómo aparecés | Age and how you appear
-La tarjeta negra es para hombres y la blanca para mujeres, como en la identidad original de IceBreak. | The black card is for men and the white one for women, as in IceBreak's original identity.
+La tarjeta negra es para hombres y la blanca para mujeres, como en la identidad original de Wenas. | The black card is for men and the white one for women, as in Wenas's original identity.
 Edad | Age
 Hombre | Man
 Mujer | Woman
@@ -645,7 +645,7 @@ Las personas cerca que también buscan te pueden encontrar y mandarte un corazó
 Nadie te encuentra en Citas ni te manda corazones. Activalo si querés conocer a alguien. | Nobody finds you in Dating or sends you hearts. Turn it on if you want to meet someone.
 
 # Face link
-Eso no es un código de enlace de IceBreak (empieza con W1). | That is not an IceBreak link code (it starts with W1).
+Eso no es un código de enlace de Wenas (empieza con W1). | That is not a Wenas link code (it starts with W1).
 Usar | Use
 Escanear con la cámara | Scan with the camera
 Pegar el código | Paste the code
@@ -656,7 +656,7 @@ Escaneá la respuesta | Scan the answer
 Ese código no es la respuesta a este enlace. Probá de nuevo. | That code is not the answer to this link. Try again.
 Enlazando con {who}… | Linking with {who}…
 Escaneá el código del otro teléfono | Scan the other phone's code
-Ese no es un código de enlace de IceBreak. | That is not an IceBreak link code.
+Ese no es un código de enlace de Wenas. | That is not a Wenas link code.
 Mostrale o mandale este código al otro dispositivo. | Show or send this code to the other device.
 Enlazar cara a cara | Link face to face
 Para dispositivos sin radio (iPhone, computadora) o cuando quieran un enlace directo. Los dos tienen que tener Internet o estar en la misma red Wi-Fi. Sin cámara, copiá y pegá los códigos. | For devices without radio (iPhone, computer) or when you want a direct link. Both must have Internet or be on the same Wi-Fi network. Without a camera, copy and paste the codes.
@@ -782,7 +782,7 @@ Cada idea y cada queja tiene su premio, al instante: | Every idea and every comp
 Idea: +2 días ampliados | Idea: +2 extended days
 Queja: +1 día ampliado | Complaint: +1 extended day
 Una idea y una queja por día | One idea and one complaint per day
-Las ideas y quejas llegan al equipo de ICEBREAK: solo viajan el tipo, tu apodo y el texto. | Ideas and complaints reach the ICEBREAK team: only the type, your nickname and the text travel.
+Las ideas y quejas llegan al equipo de Wenas: solo viajan el tipo, tu apodo y el texto. | Ideas and complaints reach the Wenas team: only the type, your nickname and the text travel.
 TENGO UNA IDEA | I HAVE AN IDEA
 TENGO UNA QUEJA | I HAVE A COMPLAINT
 +2 días ampliados | +2 extended days
@@ -797,7 +797,7 @@ Chat · tocá para mandar | Chat · tap to send
 Guía enviada a {k}. | Guide sent to {k}.
 
 # Invite
-Que tu amigo abra IceBreak, toque "Escanear invitación QR" y apunte acá. Un solo uso. | Have your friend open IceBreak, tap "Scan QR invitation" and point here. Single use.
+Que tu amigo abra Wenas, toque "Escanear invitación QR" y apunte acá. Un solo uso. | Have your friend open Wenas, tap "Scan QR invitation" and point here. Single use.
 ¡Entró a la red con tu QR! Ganaste +20 m² de alcance. | They joined the network with your QR! You earned +20 m² of reach.
 Venció: generá otro. | Expired: make another one.
 Otro código | Another code
@@ -923,7 +923,7 @@ Descripción personal | About me
 Contá algo de vos | Tell something about you
 Mis gustos | My likes
 Elegí un apodo de al menos 2 letras. | Choose a nickname of at least 2 letters.
-ICEBREAK es para mayores de 18. | ICEBREAK is for people over 18.
+Wenas es para mayores de 18. | Wenas is for people over 18.
 Elegí al menos un gusto. | Choose at least one like.
 Perfiles | Profiles
 Ocultos 24 h | Hidden 24 h
@@ -957,7 +957,7 @@ Llegaste a {favorites} favoritos. | You reached {favorites} favorites.
 Zona | Area
 Sin descripción. | No description.
 Editar descripción | Edit description
-Creador de ICEBREAK: fundó esta red. | Creator of ICEBREAK: founded this network.
+Creador de Wenas: fundó esta red. | Creator of Wenas: founded this network.
 Fundaste esta red: tu llave es la raíz de todas las invitaciones. | You founded this network: your key is the root of every invitation.
 Miembro verificado hasta el fundador. | Member verified up to the founder.
 Mis fotos | My photos
@@ -1004,9 +1004,9 @@ Para avisarte de llamadas y mensajes con la app en segundo plano. | To alert you
 Sin límite de batería | No battery limit
 Para que Android no corte la conexión y te lleguen las llamadas. | So Android does not cut the connection and calls reach you.
 Para sacar fotos y videollamadas. | To take photos and make video calls.
-Para avisarte de llamadas y mensajes (en iPhone, con IceBreak agregado a la pantalla de inicio). | To alert you of calls and messages (on iPhone, with IceBreak added to the home screen).
+Para avisarte de llamadas y mensajes (en iPhone, con Wenas agregado a la pantalla de inicio). | To alert you of calls and messages (on iPhone, with Wenas added to the home screen).
 Antes de zarpar | Before setting sail
-IceBreak funciona de teléfono a teléfono. Para eso necesita estos permisos: | IceBreak works from phone to phone. For that it needs these permissions:
+Wenas funciona de teléfono a teléfono. Para eso necesita estos permisos: | Wenas works from phone to phone. For that it needs these permissions:
 Permisos | Permissions
 Pidiendo permisos… | Asking for permissions…
 Permitir | Allow
@@ -1290,7 +1290,7 @@ Chatear con {k} | Chat with {k}
 Usuarios cercanos | Nearby users
 {keys} en {radiusMeters} km | {keys} within {radiusMeters} km
 Activá la ubicación: la distancia se calcula entre celdas de 100 m y tu posición exacta nunca sale del teléfono. | Turn on location: distance is computed between 100 m cells and your exact position never leaves the phone.
-Nadie enlazado todavía. Cuando otro teléfono con IceBreak esté cerca, aparece acá. | Nobody linked yet. When another phone with IceBreak is nearby, it shows up here.
+Nadie enlazado todavía. Cuando otro teléfono con Wenas esté cerca, aparece acá. | Nobody linked yet. When another phone with Wenas is nearby, it shows up here.
 Las personas cerca están ocultas por 24 h. Las podés restaurar en Perfil → Ocultos 24 h. | The people nearby are hidden for 24 h. You can restore them in Profile → Hidden 24 h.
 Enlazado con {links} teléfonos; esperando sus tarjetas… | Linked with {links} phones; waiting for their cards…
 Lista congelada. | List frozen.
@@ -1313,7 +1313,7 @@ Lista en vivo | Live list
 No hay una app para abrir este archivo. | There is no app to open this file.
 
 # Design system
-Fundador de ICEBREAK · verificado por su llave | Founder of ICEBREAK · verified by their key
+Fundador de Wenas · verificado por su llave | Founder of Wenas · verified by their key
 Cómo funciona | How it works
 Más | More
 Base · blanco y negro | Base · black and white
@@ -1343,10 +1343,10 @@ Llamando a {name}… | Calling {name}…
 Tocá para volver a la llamada · {name} · {time} | Tap to go back to the call · {name} · {time}
 Tocá para volver a la llamada · {name} · | Tap to go back to the call · {name} ·
 Actualización obligatoria: instalá la versión {v}. | Required update: install version {v}.
-¡Hola! Mi nombre es Nicolás Astorga y soy inventor. Muchos podrían decir que ICEBREAK es mi mejor obra, pero se equivocan: la de abajo es mi mejor obra, y solo fui un instrumento. | Hi! My name is Nicolás Astorga and I am an inventor. Many might say ICEBREAK is my best work, but they are wrong: the one below is my best work, and I was only an instrument.
+¡Hola! Mi nombre es Nicolás Astorga y soy inventor. Muchos podrían decir que Wenas es mi mejor obra, pero se equivocan: la de abajo es mi mejor obra, y solo fui un instrumento. | Hi! My name is Nicolás Astorga and I am an inventor. Many might say Wenas is my best work, but they are wrong: the one below is my best work, and I was only an instrument.
 Se borran de este teléfono tu clave, tu perfil, tus chats, tu ICE y todo lo guardado. Sin tus 16 palabras no vas a poder recuperarla. Lo que ya llegó a otros teléfonos deja de circular a medida que caduca. | Your key, your profile, your chats, your ICE and everything saved are deleted from this phone. Without your 16 words you won't be able to recover it. What already reached other phones stops circulating as it expires.
-Hasta el {d}/{m}/{y}. En ICEBREAK nada se paga con dinero: los días se ganan. | Until {d}/{m}/{y}. In ICEBREAK nothing is paid with money: days are earned.
-En ICEBREAK nada se paga con dinero: los días se ganan. | In ICEBREAK nothing is paid with money: days are earned.
+Hasta el {d}/{m}/{y}. En Wenas nada se paga con dinero: los días se ganan. | Until {d}/{m}/{y}. In Wenas nothing is paid with money: days are earned.
+En Wenas nada se paga con dinero: los días se ganan. | In Wenas nothing is paid with money: days are earned.
 Versión instalada: {v} · Publicada: {w} | Installed version: {v} · Published: {w}
 Versión instalada: {v} | Installed version: {v}
 Bienvenida · de {who} | Welcome · from {who}
@@ -1479,8 +1479,8 @@ Zona {z} | Area {z}
 Mis estados | My statuses
 
 # User guide (Settings → User guide)
-Guía de ICEBREAK | ICEBREAK guide
-ICEBREAK es la red social de la gente que tenés cerca. Funciona de teléfono a teléfono, sin servidores: tus mensajes van cifrados y tu ubicación exacta nunca sale de tu celular. | ICEBREAK is the social network of the people near you. It works from phone to phone, with no servers: your messages are encrypted and your exact location never leaves your phone.
+Guía de Wenas | Wenas guide
+Wenas es la red social de la gente que tenés cerca. Funciona de teléfono a teléfono, sin servidores: tus mensajes van cifrados y tu ubicación exacta nunca sale de tu celular. | Wenas is the social network of the people near you. It works from phone to phone, with no servers: your messages are encrypted and your exact location never leaves your phone.
 Entrá con el QR de invitación de un amigo, o con la puerta abierta del fundador. | Join with a friend's invitation QR, or through the founder's open door.
 Completá tu perfil y subí 3 fotos: ganás más alcance para ver gente más lejos. | Complete your profile and upload 3 photos: you earn more reach to see people farther away.
 Publicá tu primer estado y mirá lo que pasa a tu alrededor. | Post your first status and see what is going on around you.
@@ -1503,7 +1503,7 @@ Encontrá a alguien por su nombre. | Find someone by their name.
 Grupos de la zona a los que te podés postular. | Groups in the area you can apply to.
 Elegí ver hombres, mujeres o ambos, y por localidad. | Choose to see men, women or both, and by town.
 Deja quieta la lista para mirarla tranquilo. | Keeps the list still so you can look at it calmly.
-Los cubitos de hielo que se derriten junto a un nombre marcan al fundador de ICEBREAK: salen por su llave verificada, así que nadie puede copiarlos con el apodo. | The melting ice cubes next to a name mark the founder of ICEBREAK: they come from his verified key, so nobody can copy them with the nickname.
+Los cubitos de hielo que se derriten junto a un nombre marcan al fundador de Wenas: salen por su llave verificada, así que nadie puede copiarlos con el apodo. | The melting ice cubes next to a name mark the founder of Wenas: they come from his verified key, so nobody can copy them with the nickname.
 Tus chats privados, cifrados de punta a punta. | Your private chats, end-to-end encrypted.
 Tus conversaciones. Arriba hay un buscador para encontrar a alguien rápido. | Your conversations. At the top there is a search box to find someone quickly.
 Mensajes de gente que no conocés: aceptás para seguir charlando. | Messages from people you don't know: accept to keep chatting.
@@ -1538,7 +1538,7 @@ Dentro de una sala: chat, usuarios, privados y el botón de audio para hablar. |
 En un privado podés agregar a la persona como amigo, o cerrarlo con la X si no te gusta. | In a private chat you can add the person as a friend, or close it with the X if you don't like it.
 Para salir, la app te pregunta antes: así no perdés tu lugar sin querer. | To leave, the app asks first: that way you don't lose your spot by accident.
 En el audio de la sala, arriba se ve quién habla: vos en verde, una mujer en rosa y un hombre en celeste; con 🔑 si es un amigo con palabra clave. | In the room audio, the top shows who is talking: you in green, a woman in pink and a man in light blue; with 🔑 if it is a friend with a key word.
-Ayudá a mejorar ICEBREAK y ganá días ampliados. | Help improve ICEBREAK and earn extended days.
+Ayudá a mejorar Wenas y ganá días ampliados. | Help improve Wenas and earn extended days.
 Mandá una idea (+2 días) y una queja (+1 día) por día. | Send one idea (+2 days) and one complaint (+1 day) per day.
 Debajo de la idea y la queja: guías públicas oficiales de cada país (alimentación, RCP, vacunas, sismos, derechos, internet segura y más), ordenadas por continente y país: tocás una rama y se abre solo esa. Se leen o descargan desde su sitio oficial, o se mandan a un contacto por el chat privado. Si una guía deja de estar en línea, la app avisa que no está disponible en este momento. | Under the idea and the complaint: official public guides from each country (nutrition, CPR, vaccines, earthquakes, rights, safe Internet and more), sorted by continent and country: tap a branch and only that one opens. They are read or downloaded from their official site, or sent to a contact through the private chat. If a guide goes offline, the app says it is not available right now.
 Lo que mandaste. | What you sent.
@@ -1701,7 +1701,7 @@ Dentro de Usuarios, con su propio botón: tu perfil y el de las personas cercana
 Tu perfil y el de la gente cerca, con fotos, álbum y favoritos. | Your profile and those of the people nearby, with photos, album and favorites.
 Noticias y videos de canales oficiales, por tema o con tu propio texto, de hoy, la semana, el mes o el año, y del país, la provincia o la localidad que elijas. | News and videos from official channels, by topic or your own text, from today, the week, the month or the year, and from the country, province or town you choose.
 Notas de diarios con foto y una breve descripción, como los estados; "Ver nota original" abre la nota en su sitio. | Newspaper stories with a photo and a short description, like statuses; "Read the original article" opens it on its site.
-Videos de canales oficiales de noticias, con título y descripción, para ver desde IceBreak. | Videos from official news channels, with title and description, to watch from IceBreak.
+Videos de canales oficiales de noticias, con título y descripción, para ver desde Wenas. | Videos from official news channels, with title and description, to watch from Wenas.
 El botón de borde de colores: elegí cuándo (hoy, esta semana, un mes, último año) y dónde (país, provincia o estado, localidad); cada parte se activa sola si la querés. | The colored-border button: choose when (today, this week, a month, last year) and where (country, province or state, town); each part turns on only if you want it.
 Tema | Topic
 General, política, deportes, clima y más, u "Otro tema…" para escribir el tuyo. | General, politics, sports, weather and more, or "Other topic…" to type your own.
@@ -1785,8 +1785,8 @@ tocá para abrir | tap to open
 Cofre cerrado · {c} | Closed chest · {c}
 
 # The way in and the welcome chests
-ENTRAR A ICEBREAK | ENTER ICEBREAK
-Aceptá los términos y tocá Entrar a ICEBREAK: en unos segundos estás adentro. | Accept the terms and tap Enter ICEBREAK: you are in within seconds.
+ENTRAR A WENAS | ENTER WENAS
+Aceptá los términos y tocá Entrar a Wenas: en unos segundos estás adentro. | Accept the terms and tap Enter Wenas: you are in within seconds.
 La entrada no está disponible desde este teléfono ahora. Si ya tenías cuenta, recuperala con tus 16 palabras. | The way in is not available from this phone right now. If you already had an account, recover it with your 16 words.
 Cofre de bienvenida | Welcome chest
 +{n} m² de alcance | +{n} m² of reach

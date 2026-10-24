@@ -1,6 +1,6 @@
 {
-    "name": "ICEBREAK",
-    "short_name": "ICEBREAK",
+    "name": "Wenas",
+    "short_name": "Wenas",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#000000",
@@ -32,6 +32,6 @@
             "purpose": "maskable"
         }
     ],
-    "id": "/icebreak-web/app/",
+    "id": "/app/",
     "scope": "."
 }
