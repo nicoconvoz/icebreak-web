@@ -130,7 +130,7 @@ Instalar Wenas en el iPhone | Install Wenas on the iPhone
 1. Abrí esta página en Safari. | 1. Open this page in Safari.
 2. Tocá el botón Compartir ⬆️ (abajo, o arriba en el iPad). | 2. Tap the Share button ⬆️ (at the bottom, or at the top on the iPad).
 3. Elegí "Agregar a inicio" y tocá Agregar. | 3. Choose "Add to Home Screen" and tap Add.
-Aparece el ícono IB y se abre a pantalla completa, como una app. Así también te llegan las notificaciones. | The IB icon appears and opens full screen, like an app. That way notifications reach you too.
+Aparece el ícono del barquito y se abre a pantalla completa, como una app. Así también te llegan las notificaciones. | The paper boat icon appears and opens full screen, like an app. That way notifications reach you too.
 Se liberó un lugar: entraste a {name}. | A spot opened up: you joined {name}.
 Mensaje nuevo en Chat | New message in Chat
 Mensaje nuevo | New message
@@ -150,7 +150,7 @@ Cancelar | Cancel
 Instalá Wenas en tu iPhone | Install Wenas on your iPhone
 Instalá Wenas como app | Install Wenas as an app
 Tocá Compartir ⬆️ y elegí "Agregar a inicio". | Tap Share ⬆️ and choose "Add to Home Screen".
-Queda el ícono IB en tu pantalla de inicio. | The IB icon stays on your home screen.
+Queda el ícono del barquito en tu pantalla de inicio. | The paper boat icon stays on your home screen.
 Instalar | Install
 Cómo | How
 Ahora no | Not now
@@ -251,7 +251,7 @@ Respaldo guardado. Solo se abre con tus 16 palabras. | Backup saved. It only ope
 Ese respaldo es de otra cuenta. | That backup belongs to another account.
 No es un respaldo válido o fue modificado. | It is not a valid backup, or it was modified.
 Respaldo restaurado. Wenas se cierra para cargarlo: volvé a abrirla. | Backup restored. Wenas closes to load it: open it again.
-Tu nombre real y tu teléfono nunca se comparten. Los demás ven solo tu apodo, tu tarjeta y una celda de 100 m. | Your real name and your phone number are never shared. Others only see your nickname, your card and a 100 m cell.
+Tu nombre real y tu teléfono nunca se comparten. Los demás ven solo tu apodo, tu tarjeta y un color según la distancia. | Your real name and phone number are never shared. Others only see your nickname, your card and a color for the distance.
 Eliminar cuenta | Delete account
 Cada skin es un paquete de tokens: colores, tipografía, bordes y texturas. Los componentes no tienen colores fijos. Los skins nuevos salen de los tesoros o los crea la gente en el Taller. | Every skin is a bundle of tokens: colors, typography, borders and textures. Components have no fixed colors. New skins come from treasures or are made by people in the Workshop.
 Ahorro de datos | Data saver
@@ -994,7 +994,7 @@ ve tu álbum | sees your album
 Quitar | Remove
 
 # Permissions
-Para saber quién está cerca. Solo sale del teléfono una celda de 100 m, nunca tu posición. | To know who is nearby. Only a 100 m cell leaves the phone, never your position.
+Para saber quién está cerca. A los demás solo les llega un color según la distancia, nunca dónde estás. | To know who is nearby. Others only get a color for the distance, never where you are.
 Dispositivos cercanos | Nearby devices
 Para enlazar con los teléfonos de al lado por Bluetooth y Wi-Fi, sin servidores. | To link with phones next to you over Bluetooth and Wi-Fi, with no servers.
 Micrófono | Microphone
@@ -1289,7 +1289,7 @@ No hay nadie con ese criterio en tu alcance. | There is nobody matching that in 
 Chatear con {k} | Chat with {k}
 Usuarios cercanos | Nearby users
 {keys} en {radiusMeters} km | {keys} within {radiusMeters} km
-Activá la ubicación: la distancia se calcula entre celdas de 100 m y tu posición exacta nunca sale del teléfono. | Turn on location: distance is computed between 100 m cells and your exact position never leaves the phone.
+Activá la ubicación: la distancia se ve como un color y tu posición exacta nunca sale del teléfono. | Turn on location: distance shows as a color and your exact position never leaves the phone.
 Nadie enlazado todavía. Cuando otro teléfono con Wenas esté cerca, aparece acá. | Nobody linked yet. When another phone with Wenas is nearby, it shows up here.
 Las personas cerca están ocultas por 24 h. Las podés restaurar en Perfil → Ocultos 24 h. | The people nearby are hidden for 24 h. You can restore them in Profile → Hidden 24 h.
 Enlazado con {links} teléfonos; esperando sus tarjetas… | Linked with {links} phones; waiting for their cards…
@@ -1480,7 +1480,7 @@ Mis estados | My statuses
 
 # User guide (Settings → User guide)
 Guía de Wenas | Wenas guide
-Wenas es la red social de la gente que tenés cerca. Funciona de teléfono a teléfono, sin servidores: tus mensajes van cifrados y tu ubicación exacta nunca sale de tu celular. | Wenas is the social network of the people near you. It works from phone to phone, with no servers: your messages are encrypted and your exact location never leaves your phone.
+Wenas es la red social de la gente que tenés cerca. Funciona de teléfono a teléfono, sin servidores, y tus mensajes van cifrados. Nadie ve dónde estás: los demás solo ven un color según la distancia, y el verde ya abarca más de 1 km a la redonda. Tu punto exacto nunca sale de tu teléfono; entre teléfonos viaja apenas una celda aproximada para calcular ese color. | Wenas is the social network of the people near you. It works from phone to phone, with no servers, and your messages are encrypted. Nobody sees where you are: others only see a color for the distance, and green already covers more than 1 km around. Your exact spot never leaves your phone; between phones only a rough cell travels, to work out that color.
 Entrá con el QR de invitación de un amigo, o con la puerta abierta del fundador. | Join with a friend's invitation QR, or through the founder's open door.
 Completá tu perfil y subí 3 fotos: ganás más alcance para ver gente más lejos. | Complete your profile and upload 3 photos: you earn more reach to see people farther away.
 Publicá tu primer estado y mirá lo que pasa a tu alrededor. | Post your first status and see what is going on around you.
@@ -1881,3 +1881,7 @@ Cambia toda la app: colores, letra, esquinas, botones y fondo. Se vende en el IC
 Estilo de la app | App style
 Estilo de la gente | Style made by people
 Guardado para siempre | Kept for good
+Mínimo 3 caracteres. | At least 3 characters.
+Sin saltos de línea ni el signo |. | No line breaks nor the | sign.
+De 3 a 15 caracteres, con dibujitos si querés | 3 to 15 characters, drawings welcome
+Este navegador no permite compartir la pantalla. | This browser cannot share the screen.
