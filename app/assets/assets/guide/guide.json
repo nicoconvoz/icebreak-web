@@ -73,7 +73,7 @@
         {
           "svg": "usuarios",
           "label": "Cercanos",
-          "does": "La gente a tu alrededor, de la más cerca a la más lejos."
+          "does": "La gente a tu alrededor, de la más cerca a la más lejos. Si en tu alcance hay menos de 25 personas, la lista se completa con las más cercanas de más lejos (en violeta), buscando cada vez más lejos, hasta todo el mundo. Cuando aparece alguien más cerca, desplaza al más lejano; con 25 o más en tu alcance, solo ves gente de tu rango."
         },
         {
           "svg": "search",
