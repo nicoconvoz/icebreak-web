@@ -414,7 +414,7 @@ Entrás a la red por la puerta abierta del creador de Wenas. Se puede una sola v
 Entrar | Join
 Preparando tu llave… | Preparing your key…
 Recuperar mi cuenta | Recover my account
-Escribí tus 16 palabras en orden. Si sos el fundador de la red, entrás directo. Si no, después escaneá un QR de cualquier miembro: tu llave vuelve igual y te reconocen. | Type your 16 words in order. If you are the founder of the network, you get straight in. If not, then scan a QR from any member: your key comes back the same and they recognize you.
+Escribí tus 16 palabras en orden. Tu llave vuelve igual y la red te reconoce. Solo si la entrada abierta está cerrada te va a pedir el QR de un miembro. | Type your 16 words in order. Your key comes back and the network knows you. Only if the open door is closed will it ask for a member's QR.
 Palabras correctas. | Correct words.
 Tienen que ser 16 palabras. | It must be 16 words.
 "{word}" no es una palabra válida. | "{word}" is not a valid word.
