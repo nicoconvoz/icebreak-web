@@ -1242,7 +1242,7 @@ Cerca | Close
 el más cercano | the nearest
 Activar brújula | Turn on compass
 Sin permiso para la brújula: el norte queda arriba. | No compass permission: north stays at the top.
-El cuello de la botella apunta al tesoro más cercano. Su color cambia con la distancia: negra a más de 8 km, después roja, naranja, amarilla, verde oscuro a 1 km y verde claro llegando a los 200 m; desde ahí brilla de todos los colores. A 10 m aparece el cofre. Podés abrir todos los que encuentres: solo hace falta una llave por cofre. El mapa sigue tus pasos, marca por dónde caminaste y muestra con ondas la zona donde está escondido el cofre. | The bottle's neck points to the nearest treasure. Its color changes with distance: black beyond 8 km, then red, orange, yellow, dark green at 1 km and light green near 200 m; from there it shines in every color. At 10 m the chest appears. You can open every one you find: you only need one key per chest. The map follows your steps, marks where you walked and shows with waves the area where the chest is hidden.
+El cuello de la botella apunta al tesoro más cercano. Su color cambia con la distancia: negra a más de 8 km, después roja, naranja, amarilla, verde oscuro a 1 km y verde claro llegando a los 200 m; desde ahí brilla de todos los colores. Cuando estás a menos de 10 a 25 m (según la precisión de tu GPS) aparece el cofre. Podés abrir todos los que encuentres: solo hace falta una llave por cofre. El mapa sigue tus pasos, marca por dónde caminaste y muestra con ondas la zona donde está escondido el cofre. | The bottle's neck points to the nearest treasure. Its color changes with distance: black beyond 8 km, then red, orange, yellow, dark green at 1 km and light green near 200 m; from there it shines in every color. Within 10 to 25 m (depending on your GPS precision) the chest appears. You can open every one you find: you only need one key per chest. The map follows your steps, marks where you walked and shows with waves the area where the chest is hidden.
  · permanente | · permanent
 +{slots} casilleros extra en tu Baúl | +{slots} extra slots in your Vault
 Seguir buscando | Keep searching
@@ -1885,3 +1885,9 @@ Mínimo 3 caracteres. | At least 3 characters.
 Sin saltos de línea ni el signo |. | No line breaks nor the | sign.
 De 3 a 15 caracteres, con dibujitos si querés | 3 to 15 characters, drawings welcome
 Este navegador no permite compartir la pantalla. | This browser cannot share the screen.
+Responder | Reply
+Cancelar respuesta | Cancel reply
+Borrar comentario | Delete comment
+¿Borrar este comentario? | Delete this comment?
+Se borra para todos y no se puede deshacer. | It is deleted for everyone and cannot be undone.
+Borrar | Delete
