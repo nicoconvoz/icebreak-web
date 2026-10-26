@@ -279427,7 +279427,7 @@
         _this._sendProposal$1(key);
     },
     _onHello$2(msg, __wc0_formal) {
-      var known, t2, card, t3, t4, lookAt, prev, appeared, t5, t6, t7, t8, e, was, room, wasHere, nick, error, who, quiet, visible, _this = this, _null = null, _s2_ = "||",
+      var known, t2, card, t3, t4, lookAt, prev, t5, t6, appeared, t7, t8, t9, t10, e, was, room, wasHere, nick, band, who, quiet, visible, _this = this, _null = null, _s2_ = "||",
         j = msg.$index(0, "card"),
         t1 = type$.Map_String_dynamic,
         got = t1._is(j) ? A.PresenceCard_fromJson(j) : _null;
@@ -279457,46 +279457,48 @@
       _this._takeLook$2(t2, msg.$index(0, "look"));
       t4 = _this._social_node$_peers;
       prev = t4.$index(0, t2);
-      appeared = prev == null || _this._social_node$_now.call$0() - prev._1 > 120000;
-      t5 = _this._social_node$_now;
-      t4.$indexSet(0, t2, new A._Record_2_card_seen(card, t5.call$0()));
+      t5 = prev == null;
+      t6 = !t5;
+      appeared = !t6 || _this._social_node$_now.call$0() - prev._1 > 120000;
+      t7 = _this._social_node$_now;
+      t4.$indexSet(0, t2, new A._Record_2_card_seen(card, t7.call$0()));
       t4 = _this._book;
-      t6 = t4.$index(0, t2);
-      t6 = t6 == null ? _null : B.JSString_methods.replaceFirst$2(t6.get$_social$_body(), "|" + t6.at + "|", _s2_);
-      t7 = card.get$_social$_body();
-      t8 = "|" + card.at + "|";
-      if (t6 !== B.JSString_methods.replaceFirst$2(t7, t8, _s2_)) {
+      t8 = t4.$index(0, t2);
+      t8 = t8 == null ? _null : B.JSString_methods.replaceFirst$2(t8.get$_social$_body(), "|" + t8.at + "|", _s2_);
+      t9 = card.get$_social$_body();
+      t10 = "|" + card.at + "|";
+      if (t8 !== B.JSString_methods.replaceFirst$2(t9, t10, _s2_)) {
         t4.$indexSet(0, t2, card);
-        t6 = _this.store;
+        t8 = _this.store;
         t1 = A.LinkedHashMap_LinkedHashMap$_empty(type$.String, t1);
         for (t4 = new A.LinkedHashMapEntriesIterable(t4, A._instanceType(t4)._eval$1("LinkedHashMapEntriesIterable<1,2>")).get$iterator(0); t4.moveNext$0();) {
           e = t4.__js_helper$_current;
           t1.$indexSet(0, e.key, e.value.toJson$0());
         }
-        t6._write$2(t6._prefix + "book", B.C_JsonCodec.encode$2$toEncodable(t1, _null));
+        t8._write$2(t8._prefix + "book", B.C_JsonCodec.encode$2$toEncodable(t1, _null));
       }
       t1 = _this._roomOf;
       was = t1.$index(0, t2);
       room = A._asStringQ(msg.$index(0, "room"));
       t4 = was == null;
       if (!t4) {
-        t6 = _this.currentRoom;
-        wasHere = t6 != null && was._0 === t6 && t5.call$0() - was._1 <= 120000;
+        t8 = _this.currentRoom;
+        wasHere = t8 != null && was._0 === t8 && t7.call$0() - was._1 <= 120000;
       } else
         wasHere = false;
-      t1.$indexSet(0, t2, new A._Record_2_room_seen(room, t5.call$0()));
+      t1.$indexSet(0, t2, new A._Record_2_room_seen(room, t7.call$0()));
       t1 = _this._roomNickOf;
       nick = t1.$index(0, t2);
-      t6 = _this._errorOf;
-      error = t6.$index(0, t2);
+      band = t5 ? _null : _this._bandOf$1(prev._0);
       if (typeof msg.$index(0, "nick") == "string")
         t1.$indexSet(0, t2, A._asString(msg.$index(0, "nick")));
-      t6.$indexSet(0, t2, A._isInt(msg.$index(0, "oa")) ? Math.min(5000, Math.max(0, A._asInt(msg.$index(0, "oa")))) : 0);
+      t5 = A._isInt(msg.$index(0, "oa")) ? Math.min(5000, Math.max(0, A._asInt(msg.$index(0, "oa")))) : 0;
+      _this._errorOf.$indexSet(0, t2, t5);
       if (_this.currentRoom != null && !_this._blocked.contains$1(0, t2)) {
         who = t1.$index(0, t2);
         if (who == null)
           who = card.name;
-        quiet = room != (t4 ? _null : was._0) && room != null && !_this.get$roomGuard().join$2(0, t2, t5.call$0());
+        quiet = room != (t4 ? _null : was._0) && room != null && !_this.get$roomGuard().join$2(0, t2, t7.call$0());
         if (room == _this.currentRoom && !wasHere && !quiet)
           _this._systemLine$1(who + " entr\xf3 a la sala");
         if (room != _this.currentRoom && wasHere)
@@ -279506,17 +279508,19 @@
         _this._shareRecent$1$minGapMs(5000);
         _this._onAppeared$1(t2);
       }
-      _this._social_node$_shown.add$1(0, t2);
       visible = true;
-      if (!appeared) {
-        t5 = prev._0;
-        if (B.JSString_methods.replaceFirst$2(t5.get$_social$_body(), "|" + t5.at + "|", _s2_) === B.JSString_methods.replaceFirst$2(card.get$_social$_body(), t8, _s2_)) {
-          if ((t4 ? _null : was._0) == room)
-            if (t1.$index(0, t2) == nick)
-              if (t6.$index(0, t2) == error) {
-                t1 = t3.$index(0, t2);
-                t1 = (t1 == null ? _null : t1._0) != lookAt;
-              } else
+      if (!_this._social_node$_shown.add$1(0, t2))
+        if (t6) {
+          t5 = prev._0;
+          if (B.JSString_methods.replaceFirst$2(t5.get$_social$_body(), "|" + t5.at + "|", _s2_) === B.JSString_methods.replaceFirst$2(card.get$_social$_body(), t10, _s2_))
+            if ((t4 ? _null : was._0) == room)
+              if (t1.$index(0, t2) == nick)
+                if (_this._bandOf$1(card) == band) {
+                  t1 = t3.$index(0, t2);
+                  t1 = (t1 == null ? _null : t1._0) != lookAt;
+                } else
+                  t1 = visible;
+              else
                 t1 = visible;
             else
               t1 = visible;
@@ -279524,7 +279528,6 @@
             t1 = visible;
           visible = t1;
         }
-      }
       if (visible) {
         t1 = _this.onChange;
         if (t1 != null)
@@ -279716,6 +279719,17 @@
       t1 = _this.onChange;
       if (t1 != null)
         t1.call$0();
+    },
+    _bandAt$2(d, key) {
+      var t1 = this.get$radiusMeters(),
+        t2 = Math.min(5000, Math.max(0, A.checkNum(this._social_node$_accuracy.call$0()))),
+        t3 = this._errorOf.$index(0, key);
+      return A.bandFor(d, t1, t2 + (t3 == null ? 0 : t3));
+    },
+    _bandOf$1(card) {
+      var me = this._social_node$_cell.call$0(),
+        c = card.cell;
+      return me == null || c == null ? null : this._bandAt$2(me.distanceTo$1(c), card.key);
     },
     nearby$2$withBlocked$withHidden(withBlocked, withHidden) {
       var t2, t3, t4, t5, t6, t7, t8, t9, t10, p, t11, t12, t13, t14, t15, t16, t17, c, d, _this = this,
