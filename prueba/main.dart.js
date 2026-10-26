@@ -53325,24 +53325,29 @@
       $.Trace__timer = A.Timer_Timer$periodic(B.Duration_10000000, new A.Trace_start_closure0());
     },
     Trace_cause(stack) {
-      return $.Trace__why.update$3$ifAbsent(A.Trace_callerOf(stack.toString$0(0)), new A.Trace_cause_closure(), new A.Trace_cause_closure0());
+      return $.Trace__why.update$3$ifAbsent(A.Trace_callerOf(stack.toString$0(0), "_networkChanged"), new A.Trace_cause_closure(), new A.Trace_cause_closure0());
     },
     Trace_bell(stack) {
-      return $.Trace__who.update$3$ifAbsent(A.Trace_callerOf(stack.toString$0(0)), new A.Trace_bell_closure(), new A.Trace_bell_closure0());
+      return $.Trace__who.update$3$ifAbsent(A.Trace_callerOf(stack.toString$0(0), null), new A.Trace_bell_closure(), new A.Trace_bell_closure0());
     },
-    Trace_callerOf(stack) {
-      var t1, t2, _i, line, m, t3,
+    Trace_callerOf(stack, skip) {
+      var t1, t2, t3, _i, line, m, t4, t5,
         names = A._setArrayType([], type$.JSArray_String);
-      for (t1 = stack.split("\n"), t2 = t1.length, _i = 0; _i < t2; ++_i) {
+      for (t1 = stack.split("\n"), t2 = t1.length, t3 = skip != null, _i = 0; _i < t2; ++_i) {
         line = t1[_i];
         m = A.RegExp_RegExp("^\\s*(?:#\\d+|at)\\s+(\\S+)", true, false, false).firstMatch$1(line);
         if (m == null)
           continue;
-        t3 = m._match[1];
-        t3.toString;
-        if (B.JSString_methods.contains$1(t3, "notifyListeners") || B.JSString_methods.contains$1(t3, "getCurrent") || B.JSString_methods.startsWith$1(t3, "Trace.") || B.JSString_methods.startsWith$1(t3, "ChangeNotifier."))
+        t4 = m._match[1];
+        t4.toString;
+        t5 = true;
+        if (!B.JSString_methods.contains$1(t4, "notifyListeners"))
+          if (!B.JSString_methods.contains$1(t4, "getCurrent"))
+            if (!B.JSString_methods.contains$1(t4, "StackTrace"))
+              t5 = t3 && B.JSString_methods.contains$1(t4, skip) || B.JSString_methods.startsWith$1(t4, "Trace.") || B.JSString_methods.startsWith$1(t4, "ChangeNotifier.");
+        if (t5)
           continue;
-        names.push(t3);
+        names.push(t4);
         if (names.length === 2)
           break;
       }
