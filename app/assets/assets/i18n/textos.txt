@@ -331,6 +331,7 @@ Invitados por vos | Invited by you
 4ª generación o más | 4th generation or more
 Tu red | Your network
 +{thisWeek} esta semana | +{thisWeek} this week
+{activeToday} activos hoy | {activeToday} active today
 Los números aparecen a medida que los teléfonos actualizan y se cuentan. | Numbers show up as phones update and get counted.
 Cómo entraron | How they joined
 Las ramas que más crecieron | The branches that grew the most
