@@ -149,7 +149,7 @@
     if (at > 0) { at--; show(); } else { $('step').hidden = true; $('pick').hidden = false; }
   });
   // Preview: the app's screens one by one, forward and back, swipe or buttons.
-  const SHOTS = 27;
+  const SHOTS = 26;
   let shotAt = 0;
   const shotSrc = (i) => `vista/${String(i + 1).padStart(2, '0')}.jpg`;
   function showShot() {
