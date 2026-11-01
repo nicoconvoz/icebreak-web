@@ -24,7 +24,7 @@
     {
       "svg": "estados",
       "title": "Estados",
-      "what": "Lo que publica la gente cerca tuyo en las últimas 24 horas.",
+      "what": "Lo que publica la gente de tu radar en las últimas 24 horas (los de mascotas, una semana). Cada estado se trae de su autor recién cuando aparece en la página que estás mirando: si ves \"Trayendo el estado…\", está en camino.",
       "buttons": [
         {
           "svg": "estados",
@@ -37,9 +37,14 @@
           "does": "Videos cortos. Tocás la imagen y se abre a pantalla completa, con play, pausa y volumen."
         },
         {
+          "svg": "paw",
+          "label": "Mascotas",
+          "does": "Estados de mascotas: fotos, mascotas perdidas y en adopción. Arriba elegís cuáles ver. Duran una semana y también aparecen entre los estados cercanos."
+        },
+        {
           "svg": "compose",
           "label": "Crear Estado o Reel",
-          "does": "Publicá texto, una foto, un audio o grabá un reel de hasta 1 minuto."
+          "does": "Publicá texto, una foto, un audio o grabá un reel de hasta 1 minuto. Con la patita marcás si es sobre una mascota (foto, perdida o en adopción): ese estado dura una semana."
         },
         {
           "svg": "list",

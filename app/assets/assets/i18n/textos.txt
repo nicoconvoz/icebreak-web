@@ -1892,3 +1892,21 @@ Borrar comentario | Delete comment
 ¿Borrar este comentario? | Delete this comment?
 Se borra para todos y no se puede deshacer. | It is deleted for everyone and cannot be undone.
 Borrar | Delete
+Exigir la versión {v} | Require version {v}
+Versión mínima exigida: {installed} | Minimum version required: {installed}
+Los teléfonos con una versión anterior muestran un aviso fijo de actualización obligatoria hasta que instalen la {v}. | Phones on an older version show a fixed "update required" notice until they install {v}.
+Exigir | Require
+Actualización obligatoria | Required update
+Exigir la versión {installed} | Require version {installed}
+Todas las mascotas | All pets
+Mascotas perdidas | Lost pets
+Mascotas en adopción | Pets for adoption
+Fotos de mascotas | Pet photos
+Foto de mascota | Pet photo
+Mascota perdida | Lost pet
+Mascota en adopción | Pet for adoption
+Publicar sobre una mascota | Post about a pet
+Todavía no hay estados de mascotas cerca. | No pet statuses nearby yet.
+Los estados de mascotas duran una semana. | Pet statuses last a week.
+No es sobre una mascota | Not about a pet
+Dura una semana y aparece también en Mascotas. | It lasts a week and also shows in Pets.
