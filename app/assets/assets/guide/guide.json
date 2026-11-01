@@ -24,7 +24,7 @@
     {
       "svg": "estados",
       "title": "Estados",
-      "what": "Lo que publica la gente de tu radar en las últimas 24 horas (los de mascotas, una semana). Cada estado se trae de su autor recién cuando aparece en la página que estás mirando: si ves \"Trayendo el estado…\", está en camino.",
+      "what": "Lo que publica la gente de tu radar en las últimas 24 horas (los de mascotas, una semana). Cada estado sale apenas se publica y pasa de teléfono en teléfono, así que te llega aunque su autor ya se haya ido. Si ves \"Trayendo el estado…\", está en camino.",
       "buttons": [
         {
           "svg": "estados",
